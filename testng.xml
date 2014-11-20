@@ -1,0 +1,338 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Daily Smoke Test Suite">
+<test name="calling CheckoutwithCreateAccount">
+    <classes>
+        <class name="test.CheckoutwithCreateAccount"/>
+    </classes>
+</test>
+<test name="calling AccountUpdate_changePassword">
+    <classes>
+        <class name="test.AccountUpdate_changePassword"/>
+    </classes>
+</test>
+<test name="calling AbandonFlowExistingUser">
+    <classes>
+        <class name="test.AbandonFlowExistingUser"/>
+    </classes>
+</test>
+<test name="calling AccountUpdate_changeEmail">
+    <classes>
+        <class name="test.AccountUpdate_changeEmail"/>
+    </classes>
+</test>
+<test name="calling AccountUpdate_PaymentMethod">
+    <classes>
+        <class name="test.AccountUpdate_PaymentMethod"/>
+    </classes>
+</test>
+<test name="calling AccountUpdate_BillingInformation">
+    <classes>
+        <class name="test.AccountUpdate_BillingInformation"/>
+    </classes>
+</test>
+<test name="calling AccountUpdate_AddressInformation">
+    <classes>
+        <class name="test.AccountUpdate_AddressInformation"/>
+    </classes>
+</test>
+<test name="calling AddMeasurementsFunctionality">
+    <classes>
+        <class name="test.AddMeasurementsFunctionality"/>
+    </classes>
+</test>
+<test name="calling BreadBoxAndGridFilters">
+    <classes>
+        <class name="test.BreadBoxAndGridFilters"/>
+    </classes>
+</test>
+<test name="calling BagPreviewAndFunctionality">
+    <classes>
+        <class name="test.BagPreviewAndFunctionality"/>
+    </classes>
+</test>
+<test name="calling BagPageEditShipping">
+    <classes>
+        <class name="test.BagPageEditShipping"/>
+    </classes>
+</test>
+<test name="calling BagPageEditVariant">
+    <classes>
+        <class name="test.BagPageEditVariant"/>
+    </classes>
+</test>
+<test name="calling BrowseDepartmentFlyouts">
+    <classes>
+        <class name="test.BrowseDepartmentFlyouts"/>
+    </classes>
+</test>
+<test name="calling CancelOrderExistingUser">
+    <classes>
+        <class name="test.CancelOrderExistingUser"/>
+    </classes>
+</test>
+<test name="calling CheckHSNOnAir">
+    <classes>
+        <class name="test.CheckHSNOnAir"/>
+    </classes>
+</test>
+<test name="calling CheckMultiItemsWithCoupon">
+    <classes>
+        <class name="test.CheckMultiItemsWithCoupon"/>
+    </classes>
+</test>
+<test name="calling signinApplyKashCheckoutExistingUser">
+    <classes>
+        <class name="test.signinApplyKashCheckoutExistingUser"/>
+    </classes>
+</test>
+<test name="calling signinApplyGiftCardCheckoutExistingUser">
+    <classes>
+        <class name="test.signinApplyGiftCardCheckoutExistingUser"/>
+    </classes>
+</test>
+<test name="calling CheckoutAsGuest">
+    <classes>
+        <class name="test.CheckoutAsGuest"/>
+    </classes>
+</test>
+<test name="calling CheckoutWithDonation">
+    <classes>
+        <class name="test.CheckoutWithDonation"/>
+    </classes>
+</test>
+<test name="calling CheckoutWithPromotion">
+    <classes>
+        <class name="test.CheckoutWithPromotion"/>
+    </classes>
+</test>
+<test name="calling ConvertGuestToHSNAccount">
+    <classes>
+        <class name="test.ConvertGuestToHSNAccount"/>
+    </classes>
+</test>
+<test name="calling CreateArcadeUser">
+    <classes>
+        <class name="test.CreateArcadeUser"/>
+    </classes>
+</test>
+<test name="calling CreateLightUser">
+    <classes>
+        <class name="test.CreateLightUser"/>
+    </classes>
+</test>
+<test name="calling CheckoutWithLightUserColdState">
+    <classes>
+        <class name="test.CheckoutWithLightUserColdState"/>
+    </classes>
+</test>
+<test name="calling CheckoutWithLightUserHotState">
+    <classes>
+        <class name="test.CheckoutWithLightUserHotState"/>
+    </classes>
+</test>
+<test name="calling ExpressBuyExistingUser">
+    <classes>
+        <class name="test.ExpressBuyExistingUser"/>
+    </classes>
+</test>
+<test name="calling ExpressBuyExistingColdUser">
+    <classes>
+        <class name="test.ExpressBuyExistingColdUser"/>
+    </classes>
+</test>
+<test name="calling GiftOptions">
+    <classes>
+        <class name="test.GiftOptions"/>
+    </classes>
+</test>
+<test name="calling OrderReveiwEditBillingAddress">
+    <classes>
+        <class name="test.OrderReveiwEditBillingAddress"/>
+    </classes>
+</test>
+<test name="calling OrderReveiwEditPhoneNumberLTL">
+    <classes>
+        <class name="test.OrderReveiwEditPhoneNumberLTL"/>
+    </classes>
+</test>
+<test name="calling OrderReveiwEditShippingAddress">
+    <classes>
+        <class name="test.OrderReveiwEditShippingAddress"/>
+    </classes>
+</test>
+<test name="calling OrderReveiwForFlexPayItem">
+    <classes>
+        <class name="test.OrderReveiwForFlexPayItem"/>
+    </classes>
+</test>
+<test name="calling PromoType_VIP">
+    <classes>
+        <class name="test.PromoType_VIP"/>
+    </classes>
+</test>
+<test name="calling PromoType_ExtraFlex">
+    <classes>
+        <class name="test.PromoType_ExtraFlex"/>
+    </classes>
+</test>
+<test name="calling SearchByKeyword">
+    <classes>
+        <class name="test.SearchByKeyword"/>
+    </classes>
+</test>
+<test name="calling signinCheckoutExistingAddprotectionPlan">
+    <classes>
+        <class name="test.signinCheckoutExistingAddprotectionPlan"/>
+    </classes>
+</test>
+<test name="calling signinCheckoutExistingUser">
+    <classes>
+        <class name="test.signinCheckoutExistingUser"/>
+    </classes>
+</test>
+<test name="calling signinCheckoutExistingUserAutoShip">
+    <classes>
+        <class name="test.signinCheckoutExistingUserAutoShip"/>
+    </classes>
+</test>
+<test name="calling signinCheckoutExistingUserFlexPay">
+    <classes>
+        <class name="test.signinCheckoutExistingUserFlexPay"/>
+    </classes>
+</test>
+<test name="calling signinCheckoutExistingUserColdState">
+    <classes>
+        <class name="test.signinCheckoutExistingUserColdState"/>
+    </classes>
+</test>
+<test name="calling signinCheckoutExistingMatrixItem">
+    <classes>
+        <class name="test.signinCheckoutExistingMatrixItem"/>
+    </classes>
+</test>
+<test name="calling SocialSignInFacebook">
+    <classes>
+        <class name="test.SocialSignInFacebook"/>
+    </classes>
+</test>
+<test name="calling SocialSignInGoogle">
+    <classes>
+        <class name="test.SocialSignInGoogle"/>
+    </classes>
+</test>
+<test name="calling SocialSignInTwitter">
+    <classes>
+        <class name="test.SocialSignInTwitter"/>
+    </classes>
+</test>
+<test name="calling SocialSignInYahoo">
+    <classes>
+        <class name="test.SocialSignInYahoo"/>
+    </classes>
+</test>
+<test name="calling SuggestiveSearch">
+    <classes>
+        <class name="test.SuggestiveSearch"/>
+    </classes>
+</test>
+<test name="calling OrderReveiwEditPaymentmethodNewCC">
+    <classes>
+        <class name="test.OrderReveiwEditPaymentmethodNewCC"/>
+    </classes>
+</test>
+<test name="calling OrderReveiwEditPaymentmethodNewDebitCard">
+    <classes>
+        <class name="test.OrderReveiwEditPaymentmethodNewDebitCard"/>
+    </classes>
+</test>
+<test name="calling ReviewProductForexistingUser">
+    <classes>
+        <class name="test.ReviewProductForexistingUser"/>
+    </classes>
+</test>
+<test name="calling AccountUpdatePaymentMethodPaypal">
+    <classes>
+        <class name="test.AccountUpdatePaymentMethodPaypal"/>
+    </classes>
+</test>
+<test name="calling CheckPaypalExpress">
+    <classes>
+        <class name="test.CheckPaypalExpress"/>
+    </classes>
+</test>
+<test name="calling CheckTaxAndSavingsOnBagPage">
+    <classes>
+        <class name="test.CheckTaxAndSavingsOnBagPage"/>
+    </classes>
+</test>
+<test name="calling ManageAutoshipChangeFreq">
+    <classes>
+        <class name="test.ManageAutoshipChangeFreq"/>
+    </classes>
+</test>
+<test name="calling ManageAutoshipChangeShipDate">
+    <classes>
+        <class name="test.ManageAutoshipChangeShipDate"/>
+    </classes>
+</test>
+<test name="calling ManageAutoshipEditShipping">
+    <classes>
+        <class name="test.ManageAutoshipEditShipping"/>
+    </classes>
+</test>
+<test name="calling ManageAutoshipAddNewCC">
+    <classes>
+        <class name="test.ManageAutoshipAddNewCC"/>
+    </classes>
+</test>
+<test name="calling ManageFlexPayAddNewCC">
+    <classes>
+        <class name="test.ManageFlexPayAddNewCC"/>
+    </classes>
+</test>
+<test name="calling ManageFlexPayChangeCC">
+    <classes>
+        <class name="test.ManageFlexPayChangeCC"/>
+    </classes>
+</test>
+<test name="calling SpreadTheWord">
+    <classes>
+        <class name="test.SpreadTheWord"/>
+    </classes>
+</test>
+<test name="calling Emailsignup">
+    <classes>
+        <class name="test.Emailsignup"/>
+    </classes>
+</test>
+<test name="calling ExchangeRegularItem">
+    <classes>
+        <class name="test.ExchangeRegularItem"/>
+    </classes>
+</test>
+<test name="calling ExchangeVariantItem">
+    <classes>
+        <class name="test.ExchangeVariantItem"/>
+    </classes>
+</test>
+<test name="calling MobileCheckoutWithCreateAccount">
+    <classes>
+        <class name="test.MobileCheckoutWithCreateAccount"/>
+    </classes>
+</test>
+<test name="calling MobileExistingUserAddCC">
+    <classes>
+        <class name="test.MobileExistingUserAddCC"/>
+    </classes>
+</test>
+<test name="calling MobileExistingUserRemoveCC">
+    <classes>
+        <class name="test.MobileExistingUserRemoveCC"/>
+    </classes>
+</test>
+<test name="calling MobileCheckoutAsExistingUser">
+    <classes>
+        <class name="test.MobileCheckoutAsExistingUser"/>
+    </classes>
+</test>
+</suite>

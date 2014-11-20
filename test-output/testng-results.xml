@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="8" total="71" passed="60">
+  <reporter-output>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119020500@qa1.com' and placed order 1001156063 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '5e5b5c29e10545e795e3390e6d2e9b72' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:07:21
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119021017@qa1.com' and placed order 1001156069 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '290593b4b4714f2585cef4e04920d389' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:12:31
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119021535@qa1.com' and placed order 1001156071 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '9034faceb08d4ce39a4a0a835f623357' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:17:53
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119022049@qa1.com' and placed order 1001156074 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '05cb333435c245e6a1c8a82b29681773' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:23:01
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AccountUpdate_changePassword - Used Browser : Mozilla Successfully updated password for user '8171043594' TIME STAMP: 11/19/2014 02:27:31
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AbandonFlowExistingUser - Used Browser : Mozilla Verified that Abandon Cart still reatins items to Bag And that Express Checkout does not  add old extsing items to checkout bag.  ExistingBagQuantity =  1 and BagQuantityAfterExpressBuy  =  1 TIME STAMP: 11/19/2014 02:33:12
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AccountUpdate_changeEmail - Used Browser : Mozilla Successfully updated email for user '8171043594' to ovc141119023449@qa1.com TIME STAMP: 11/19/2014 02:36:32
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AccountUpdate_PaymentMethod - Used Browser : Mozilla Successfully updated the cc number for user '8171043594' to 4013351803244445 TIME STAMP: 11/19/2014 02:39:26
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AccountUpdate_BillingInformation - Used Browser : Mozilla first name and Address successfully updated for user with phoneNumber - '8171043594' TIME STAMP: 11/19/2014 02:42:00
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AccountUpdate_AddressInformation - Used Browser : Mozilla Added new address for user with phoneNumber - '8171043594' TIME STAMP: 11/19/2014 02:45:35
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AddMeasurementsFunctionality - Used Browser :  Mozilla and selected Product '377280' . Saved recommended size L TIME STAMP: 11/19/2014 02:47:10
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : BagPageEditShipping - Used Browser : Mozilla to verify shipping options. Bag Total for standard shipping =  $ 160.18 , express shipping =  $ 160.18  , super express shipping =  $ 166.43 TIME STAMP: 11/19/2014 02:55:29
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : BrowseDepartmentFlyouts - Used Browser : Mozilla completed selecting the flyouts on all depts - BrowseDepartmentFlyouts_Report TIME STAMP: 11/19/2014 02:57:21
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CancelOrderExistingUser - Used Browser : Mozilla customer account '8171043594'  placed and cancelled order 1001156106 sucessfully.
+ TIME STAMP: 11/19/2014 03:01:49
+]]>
+    </line>
+    <line>
+      <![CDATA[TestCase : CheckHSNOnAir - null]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckMultiItemsWithCoupon - Used Browser : Mozilla  customer account ovc141119030559@qa1.com  placed order 1001156109 , with coupon 666111 and got discount -$5.00
+  sucessfully.
+ TIME STAMP: 11/19/2014 03:07:51
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : signinApplyKashCheckoutExistingUser - Used Browser : Mozilla customer account 'qaKashuser@hsn.com' went to warm state and placed order 1001111781 using apply KASH sucessfully.
+ TIME STAMP: 11/19/2014 03:12:25
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : signinApplyGiftCardCheckoutExistingUser - Used Browser : Mozilla  customer account '8171306652'  placed order 1001156120 , with gift card  503301161759798 and got discount -$20.00
+  for order = 1001156120  sucessfully.
+ TIME STAMP: 11/19/2014 03:16:53
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutAsGuest - Used Browser : Mozilla Created guest customer account ovc141119031943@qa1.com and placed order 1001156122 sucessfully.
+ TIME STAMP: 11/19/2014 03:21:12
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutWithPromotion - Used Browser : Mozilla Created customer account ovc141119032410@qa1.com and placed order 1001156124 and verfired promotion applied on bag = You saved $3.10 on this order! , shippingAndBilling = You saved $3.10 on this order! , orderReveiw = You saved $3.10 on this order! and orderConfirmation  =  You saved $3.10 on this order! TIME STAMP: 11/19/2014 03:25:36
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ConvertGuestToHSNAccount - Used Browser : Mozilla customer account ovc141119032828@qa1.com  converted form guest to HSN account TIME STAMP: 11/19/2014 03:30:18
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CreateLightUser - Used Browser : Mozilla created light user 'ovc141119033558@qa1.com' TIME STAMP: 11/19/2014 03:37:30
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckoutWithLightUserColdState - Used Browser : Mozilla to login with Light user customer account 'ovc141119033558@qa1.com' in cold state and placed order 1001156138 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '7178a619de5644dab72228af4ae8bb86' and GamificationAccountCreatedID = '6915e09b16924b38b65184809b1fc4d0' TIME STAMP: 11/19/2014 03:42:42
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ExpressBuyExistingUser - Used Browser : Mozilla  customer account '8171753670'  used expresss buy and placed order 1001156146  successfully.
+ TIME STAMP: 11/19/2014 03:51:29
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ExpressBuyExistingColdUser - Used Browser : Mozilla  customer account '8171753670'  logged in in cold state , used expresss buy and placed order 1001156149  successfully.
+ TIME STAMP: 11/19/2014 03:54:14
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : GiftOptions - Used Browser : Mozilla successfully verified Gift Options is available for product '1114001' TIME STAMP: 11/19/2014 03:56:24
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : OrderReveiwEditBillingAddress - Used Browser : Mozilla succesfully updated billing address for user '8171753670' for  order 1001156152 TIME STAMP: 11/19/2014 04:00:37
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : OrderReveiwEditPhoneNumberLTL - Used Browser : Mozilla succesfully updated shipping phone number in order review for user '8171306652' to use pnone 8175041234 and placed order 1001156154 TIME STAMP: 11/19/2014 04:05:18
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : OrderReveiwEditShippingAddress - Used Browser : Mozilla succesfully updated shipping address for user '8171373950' for  order 1001156155 TIME STAMP: 11/19/2014 04:09:44
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : OrderReveiwForFlexPayItem - Used Browser : Mozilla succesfully updated flexpayOptions in order review to use flexpay Option2 for  '8171753670' and placed order 1001156158 TIME STAMP: 11/19/2014 04:13:33
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : PromoType_VIP - Used Browser : Mozilla customer with phone '8171306652' was able to get VIP promotion for '1108195' and place order 1001156162 sucessfully. TIME STAMP: 11/19/2014 04:16:56
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : PromoType_ExtraFlex - Used Browser : Mozilla  customer with phone '8171306652' was able to get extraflexpromotion for '1123328' and place order 1001156169 sucessfully. TIME STAMP: 11/19/2014 04:20:36
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CreateLightUser - Used Browser : Mozilla successfully searched By keyword bowl and founds 342 TIME STAMP: 11/19/2014 04:21:29
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CreateLightUser - Used Browser : Mozilla successfully searched By keyword bowl and founds 342 TIME STAMP: 11/19/2014 04:22:21
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : signinCheckoutExistingUser -  Used Browser : Mozilla Hot state customer account '8171306652' placed order 1001156181 sucessfully. ReviewpageSubtotalAmount =  59.80 , ShippingAndBilling =  9.32 , EstimatedTax =  4.84 , SummaryTotal =  $73.96 . Order type = SYNC TIME STAMP: 11/19/2014 04:29:41
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : signinCheckoutExistingUserAutoShip - Used Browser : Mozilla Created customer account '8171306652' and placed order 1001156185 sucessfully.
+ TIME STAMP: 11/19/2014 04:32:59
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : signinCheckoutExistingUserColdState - Used Browser : Mozilla cold state  customer account '8171306652' placed order 1001156229 sucessfully
+ TIME STAMP: 11/19/2014 07:39:59
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : signinCheckoutExistingMatrixItem -  Used Browser : Mozilla customer account '8171306652'  placed order 1001156230  successfully for Matrix item '135348' TIME STAMP: 11/19/2014 07:43:25
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : SocialSignInFacebook - Used Browser : Mozilla sucessfully signed in using facebook user Verona.s2013@yahoo.com and signed out. TIME STAMP: 11/19/2014 07:45:14
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : SocialSignInGoogle - Used Browser : Mozilla sucessfully signed in using google plus user Greg.Sokolov2013@gmail.com and signed out. TIME STAMP: 11/19/2014 07:47:35
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : SocialSignInTwitter - Used Browser : Mozilla sucessfully signed in using Twitter user kumar_hsn_auto and signed out. TIME STAMP: 11/19/2014 07:49:27
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : SocialSignInYahoo - Used Browser : Mozilla sucessfully signed in using yahoo user Verona.s2013@yahoo.com and signed out. TIME STAMP: 11/19/2014 07:51:55
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : SuggestiveSearch - Used Browser : Mozilla searched for fork and found the first matchig item as 328-710
+Carol Fertig HAPPY Collection Fork & Spoon Serving Set TIME STAMP: 11/19/2014 07:52:49
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : OrderReveiwEditPaymentmethodNewCC - Used Browser : Mozilla succesfully updated payment method for user '8171753670' to use a new Credit card 5780974833658041 and placed order 1001156231 TIME STAMP: 11/19/2014 07:57:17
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : OrderReveiwEditPaymentmethodNewDebitCard - Used Browser : Mozilla succesfully updated payment method for user '8171753670' to use a new Debit card 376886825514431 and placed order 1001156232 TIME STAMP: 11/19/2014 08:01:46
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ReviewProductForexistingUser - Used Browser : Mozilla customer account 'ovc141119021017@qa1.com' placed a review '3235950' for product  6753585 sucessfully.
+ TIME STAMP: 11/19/2014 08:05:10
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : AccountUpdatePaymentMethodPaypal - Used Browser : Mozilla customer account '8171753670' was able to launch paypal payment option.
+ TIME STAMP: 11/19/2014 08:07:33
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : CheckPaypalExpress - Used Browser : Mozilla . Verified that paypal page launches from your Bag page when user selects the express paypal option TIME STAMP: 11/19/2014 08:09:14
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ManageAutoshipChangeFreq - Used Browser : Mozilla customer account '8171753670' to place an autoship order and then change the autoship frequency
+ TIME STAMP: 11/19/2014 08:13:59
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ManageAutoshipChangeShipDate - Used Browser : Mozilla customer account '8171753670' to place an autoship order for Product '136297' and then change the Next AutoShip date from 01/19/2015 to 01/14/2015 TIME STAMP: 11/19/2014 08:17:50
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ManageAutoshipEditShipping - Used Browser : Mozilla customer account '8171753670' to place an autoship order = 1001156235 and then change the Shipping Address TIME STAMP: 11/19/2014 08:22:48
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ManageAutoshipAddNewCC - Used Browser : Mozilla customer account '8171753670' to place a flex pay order 1001156236 and add a new cc  4013576474210354 to be used on future flex payments
+ TIME STAMP: 11/19/2014 08:28:41
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ManageFlexPayAddNewCC - Used Browser : Mozilla customer account PrimaryPhoneNumber '8171404240' to place a flex pay order 1001156237 and add a new cc  4929485076706178 to be used on future flex payments
+ TIME STAMP: 11/19/2014 08:34:08
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : ManageFlexPayChangeCC - Used Browser : Mozilla customer with PrimaryPhoneNumber '8171404240' to place a flex pay order order 1001156238 and change the cc card expiration date on the existing cc for future flex payments
+ TIME STAMP: 11/19/2014 08:39:54
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : Emailsignup - Used Browser: Mozilla ovc141119084749@qa1.com signed up for promotional emails TIME STAMP: 11/19/2014 08:48:21
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : MobileCheckoutWithCreateAccount - Used Browser : Mozilla to create customer account ovc141119085003@qa1.com and placed order 1001130504 of sucessfully
+ TIME STAMP: 11/19/2014 08:52:35
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : MobileExistingUserAddCC - Used Browser : Mozilla to update CC as 4929680161823306 for  customer account 'ovc141119021017@qa1.com' and captured last CC as Visa: ****3306
+Exp. Date: 03/2017 TIME STAMP: 11/19/2014 08:54:55
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : MobileExistingUserRemoveCC - Used Browser : Mozilla to remove OLD Credit card Visa: ****3306
+Exp. Date: 03/2017   for  customer account 'ovc141119021017@qa1.com' . New Card info is Visa: ****0354
+Exp. Date: 01/2018 TIME STAMP: 11/19/2014 08:56:50
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ TestCase : MobileCheckoutAsExistingUser - Used Browser : Chrome and Useragent =  'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5' for customer account 'ovc141119022049@qa1.com' ,  placed and cancelled order 1001156243 sucessfully.
+ TIME STAMP: 11/19/2014 08:59:13
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Daily Smoke Test Suite" duration-ms="25039054" started-at="2014-11-19T19:01:54Z" finished-at="2014-11-20T01:59:13Z">
+    <groups>
+    </groups>
+    <test name="calling CheckoutwithCreateAccount" duration-ms="1267524" started-at="2014-11-19T19:01:54Z" finished-at="2014-11-19T19:23:01Z">
+      <class name="test.CheckoutwithCreateAccount">
+        <test-method status="PASS" signature="do_CheckoutwithCreateAccount(java.util.Hashtable)[pri:0, instance:[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]]" name="do_CheckoutwithCreateAccount" duration-ms="326500" started-at="2014-11-19T14:01:55Z" data-provider="getData" finished-at="2014-11-19T14:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130443, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber1, DataRow=1, GamificationAccountCreatedID='', GamificationSiteVisitedID='585c352037e04722b821c0f17c8e5261', CCType=HSN, Result=true Timestamp: 2014-11-19T11:09:52-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='45a7a77851f041ebb56bb859c6c93f5a', OrderType=ASYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130443, Email=@key_CommonAccountEmail1, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780973125481476, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119020500@qa1.com' and placed order 1001156063 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '5e5b5c29e10545e795e3390e6d2e9b72' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:07:21
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutwithCreateAccount -->
+        <test-method status="PASS" signature="do_CheckoutwithCreateAccount(java.util.Hashtable)[pri:0, instance:[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]]" name="do_CheckoutwithCreateAccount" duration-ms="310026" started-at="2014-11-19T14:07:22Z" data-provider="getData" finished-at="2014-11-19T14:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://shopqa4.hsn.com/cmr/order_review.aspx, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber2, DataRow=2, GamificationAccountCreatedID='', GamificationSiteVisitedID='', CCType=HSN, Result=false Timestamp: 2014-11-19T11:18:39-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='35e1f096b0584f65895f504a28f19cc1', OrderType=SYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130431, Email=@key_CommonAccountEmail2, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780977327032565, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119021017@qa1.com' and placed order 1001156069 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '290593b4b4714f2585cef4e04920d389' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:12:31
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutwithCreateAccount -->
+        <test-method status="PASS" signature="do_CheckoutwithCreateAccount(java.util.Hashtable)[pri:0, instance:[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]]" name="do_CheckoutwithCreateAccount" duration-ms="321318" started-at="2014-11-19T14:12:32Z" data-provider="getData" finished-at="2014-11-19T14:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130435, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber3, DataRow=3, GamificationAccountCreatedID='', GamificationSiteVisitedID='bc8776468c2740378d9c837d9af50c4d', CCType=HSN, Result=true Timestamp: 2014-11-19T10:55:05-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='a6e069b1c8bc4745bfeb5ed2c56b24a3', OrderType=ASYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130435, Email=@key_CommonAccountEmail3, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780971120552325, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119021535@qa1.com' and placed order 1001156071 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '9034faceb08d4ce39a4a0a835f623357' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:17:53
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutwithCreateAccount -->
+        <test-method status="PASS" signature="do_CheckoutwithCreateAccount(java.util.Hashtable)[pri:0, instance:[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]]" name="do_CheckoutwithCreateAccount" duration-ms="308295" started-at="2014-11-19T14:17:53Z" data-provider="getData" finished-at="2014-11-19T14:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130439, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber4, DataRow=4, GamificationAccountCreatedID='', GamificationSiteVisitedID='4f12d904d36249fe801508845920c0b8', CCType=HSN, Result=true Timestamp: 2014-11-19T11:01:17-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='95f51d235bbb4fea8d396f49ed08a861', OrderType=ASYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130439, Email=@key_CommonAccountEmail4, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780970886144384, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119022049@qa1.com' and placed order 1001156074 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '05cb333435c245e6a1c8a82b29681773' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:23:01
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutwithCreateAccount -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:23:01Z" finished-at="2014-11-19T14:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckoutwithCreateAccount -->
+    </test> <!-- calling CheckoutwithCreateAccount -->
+    <test name="calling AccountUpdate_changePassword" duration-ms="269696" started-at="2014-11-19T19:23:01Z" finished-at="2014-11-19T19:27:31Z">
+      <class name="test.AccountUpdate_changePassword">
+        <test-method status="PASS" signature="do_AccountUpdate_changePassword(java.util.Hashtable)[pri:0, instance:[AccountUpdate_changePassword passed=0 failed=0 skipped=0]]" name="do_AccountUpdate_changePassword" duration-ms="269627" started-at="2014-11-19T14:23:01Z" data-provider="getData" finished-at="2014-11-19T14:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DataRunmode=Y, oldPassword=password123, Result=true Timestamp: 2014-11-18T23:00:58-05:00, DataRow=1, Report=AccountUpdate_changePassword_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, passwordHint=standard, Browser=Mozilla, newPassword=zanzibar123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AccountUpdate_changePassword - Used Browser : Mozilla Successfully updated password for user '8171043594' TIME STAMP: 11/19/2014 02:27:31
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AccountUpdate_changePassword -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AccountUpdate_changePassword passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:27:31Z" finished-at="2014-11-19T14:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AccountUpdate_changePassword -->
+    </test> <!-- calling AccountUpdate_changePassword -->
+    <test name="calling AbandonFlowExistingUser" duration-ms="341359" started-at="2014-11-19T19:27:31Z" finished-at="2014-11-19T19:33:13Z">
+      <class name="test.AbandonFlowExistingUser">
+        <test-method status="PASS" signature="do_AbandonFlowExistingUser(java.util.Hashtable)[pri:0, instance:[AbandonFlowExistingUser passed=0 failed=0 skipped=0]]" name="do_AbandonFlowExistingUser" duration-ms="341266" started-at="2014-11-19T14:27:31Z" data-provider="getData" finished-at="2014-11-19T14:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, PID2=#key_PIDflexItem, Result=true Timestamp: 2014-11-18T23:08:08-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber1, ExistingBagQuantity=1, BagQuantityAfterExpressBuy=1, Password=password123, Report=AbandonFlowExistingUser_Report, OrderId=195130343, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AbandonFlowExistingUser - Used Browser : Mozilla Verified that Abandon Cart still reatins items to Bag And that Express Checkout does not  add old extsing items to checkout bag.  ExistingBagQuantity =  1 and BagQuantityAfterExpressBuy  =  1 TIME STAMP: 11/19/2014 02:33:12
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AbandonFlowExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AbandonFlowExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:33:13Z" finished-at="2014-11-19T14:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AbandonFlowExistingUser -->
+    </test> <!-- calling AbandonFlowExistingUser -->
+    <test name="calling AccountUpdate_changeEmail" duration-ms="199408" started-at="2014-11-19T19:33:13Z" finished-at="2014-11-19T19:36:32Z">
+      <class name="test.AccountUpdate_changeEmail">
+        <test-method status="PASS" signature="do_AccountUpdate_changeEmail(java.util.Hashtable)[pri:0, instance:[AccountUpdate_changeEmail passed=0 failed=0 skipped=0]]" name="do_AccountUpdate_changeEmail" duration-ms="199326" started-at="2014-11-19T14:33:13Z" data-provider="getData" finished-at="2014-11-19T14:36:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=AccountUpdate_changeEmail_Report, DataRow=1, Password=password123, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, DataRunmode=Y, newEmailID=ovc141118110952@qa1.com, Result=true Timestamp: 2014-11-18T23:11:30-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AccountUpdate_changeEmail - Used Browser : Mozilla Successfully updated email for user '8171043594' to ovc141119023449@qa1.com TIME STAMP: 11/19/2014 02:36:32
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AccountUpdate_changeEmail -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AccountUpdate_changeEmail passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T14:36:32Z" finished-at="2014-11-19T14:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AccountUpdate_changeEmail -->
+    </test> <!-- calling AccountUpdate_changeEmail -->
+    <test name="calling AccountUpdate_PaymentMethod" duration-ms="174613" started-at="2014-11-19T19:36:32Z" finished-at="2014-11-19T19:39:27Z">
+      <class name="test.AccountUpdate_PaymentMethod">
+        <test-method status="PASS" signature="do_AccountUpdate_PaymentMethod(java.util.Hashtable)[pri:0, instance:[AccountUpdate_PaymentMethod passed=0 failed=0 skipped=0]]" name="do_AccountUpdate_PaymentMethod" duration-ms="174542" started-at="2014-11-19T14:36:32Z" data-provider="getData" finished-at="2014-11-19T14:39:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DataRunmode=Y, CCNum=4013546444546310, Result=true Timestamp: 2014-11-18T23:14:28-05:00, DataRow=1, CCType=Visa - Citibank, Password=password123, Report=AccountUpdate_PaymentMethod_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AccountUpdate_PaymentMethod - Used Browser : Mozilla Successfully updated the cc number for user '8171043594' to 4013351803244445 TIME STAMP: 11/19/2014 02:39:26
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AccountUpdate_PaymentMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AccountUpdate_PaymentMethod passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:39:27Z" finished-at="2014-11-19T14:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+    </test> <!-- calling AccountUpdate_PaymentMethod -->
+    <test name="calling AccountUpdate_BillingInformation" duration-ms="153310" started-at="2014-11-19T19:39:27Z" finished-at="2014-11-19T19:42:00Z">
+      <class name="test.AccountUpdate_BillingInformation">
+        <test-method status="PASS" signature="do_AccountUpdate_BillingInformation(java.util.Hashtable)[pri:0, instance:[AccountUpdate_BillingInformation passed=0 failed=0 skipped=0]]" name="do_AccountUpdate_BillingInformation" duration-ms="153241" started-at="2014-11-19T14:39:27Z" data-provider="getData" finished-at="2014-11-19T14:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=AccountUpdate_BillingInformation_Report, DataRow=1, Password=password123, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:17:22-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AccountUpdate_BillingInformation - Used Browser : Mozilla first name and Address successfully updated for user with phoneNumber - '8171043594' TIME STAMP: 11/19/2014 02:42:00
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AccountUpdate_BillingInformation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AccountUpdate_BillingInformation passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:42:00Z" finished-at="2014-11-19T14:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+    </test> <!-- calling AccountUpdate_BillingInformation -->
+    <test name="calling AccountUpdate_AddressInformation" duration-ms="215109" started-at="2014-11-19T19:42:00Z" finished-at="2014-11-19T19:45:35Z">
+      <class name="test.AccountUpdate_AddressInformation">
+        <test-method status="PASS" signature="do_AccountUpdate_AddressInformation(java.util.Hashtable)[pri:0, instance:[AccountUpdate_AddressInformation passed=0 failed=0 skipped=0]]" name="do_AccountUpdate_AddressInformation" duration-ms="215038" started-at="2014-11-19T14:42:00Z" data-provider="getData" finished-at="2014-11-19T14:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=AccountUpdate_AddressInformationReport, DataRow=1, Password=password123, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:21:00-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AccountUpdate_AddressInformation - Used Browser : Mozilla Added new address for user with phoneNumber - '8171043594' TIME STAMP: 11/19/2014 02:45:35
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AccountUpdate_AddressInformation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AccountUpdate_AddressInformation passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:45:35Z" finished-at="2014-11-19T14:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+    </test> <!-- calling AccountUpdate_AddressInformation -->
+    <test name="calling AddMeasurementsFunctionality" duration-ms="95443" started-at="2014-11-19T19:45:35Z" finished-at="2014-11-19T19:47:11Z">
+      <class name="test.AddMeasurementsFunctionality">
+        <test-method status="PASS" signature="do_AddMeasurementsFunctionality(java.util.Hashtable)[pri:0, instance:[AddMeasurementsFunctionality passed=0 failed=0 skipped=0]]" name="do_AddMeasurementsFunctionality" duration-ms="95372" started-at="2014-11-19T14:45:35Z" data-provider="getData" finished-at="2014-11-19T14:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=AddMeasurementsFunctionality_Report, DataRow=1, SizeResult=L, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:22:36-05:00, PID=#key_PIDSizedItem, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AddMeasurementsFunctionality - Used Browser :  Mozilla and selected Product '377280' . Saved recommended size L TIME STAMP: 11/19/2014 02:47:10
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AddMeasurementsFunctionality -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AddMeasurementsFunctionality passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:47:11Z" finished-at="2014-11-19T14:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AddMeasurementsFunctionality -->
+    </test> <!-- calling AddMeasurementsFunctionality -->
+    <test name="calling BreadBoxAndGridFilters" duration-ms="330392" started-at="2014-11-19T19:47:11Z" finished-at="2014-11-19T19:52:41Z">
+      <class name="test.BreadBoxAndGridFilters">
+        <test-method status="FAIL" signature="do_BreadBoxAndGridFilters(java.util.Hashtable)[pri:0, instance:[BreadBoxAndGridFilters passed=0 failed=0 skipped=0]]" name="do_BreadBoxAndGridFilters" duration-ms="330309" started-at="2014-11-19T14:47:11Z" data-provider="getData" finished-at="2014-11-19T14:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=BreadBoxAndGridFilters, DataRow=1, Password=password123, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, DataRunmode=Y, FIrstSelectedProduct=IMAN Global Chic Rock the Runway Cozy Comfort Glam Slipper, Result=false Timestamp: 2014-11-18T23:28:10-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case BreadBoxAndGridFilters has failed due to one of its steps not returning pass status expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case BreadBoxAndGridFilters has failed due to one of its steps not returning pass status expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:152)
+	at test.BreadBoxAndGridFilters.do_BreadBoxAndGridFilters(BreadBoxAndGridFilters.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_BreadBoxAndGridFilters -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[BreadBoxAndGridFilters passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:52:41Z" finished-at="2014-11-19T14:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.BreadBoxAndGridFilters -->
+    </test> <!-- calling BreadBoxAndGridFilters -->
+    <test name="calling BagPreviewAndFunctionality" duration-ms="59835" started-at="2014-11-19T19:52:41Z" finished-at="2014-11-19T19:53:41Z">
+      <class name="test.BagPreviewAndFunctionality">
+        <test-method status="FAIL" signature="do_BagPreviewAndFunctionality(java.util.Hashtable)[pri:0, instance:[BagPreviewAndFunctionality passed=0 failed=0 skipped=0]]" name="do_BagPreviewAndFunctionality" duration-ms="59752" started-at="2014-11-19T14:52:41Z" data-provider="getData" finished-at="2014-11-19T14:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDWithVariants, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:30:47-05:00, DataRow=1, BagCountAfterSaveForLater=0, BagCountAfterAddToBag=1, Report=BagPreviewAndFunctionality_Report, BagCountAfterMoveToBag=1, Browser=Mozilla, BagPreviewSubtotal=0}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:116)
+	at test.BagPreviewAndFunctionality.do_BagPreviewAndFunctionality(BagPreviewAndFunctionality.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.43.0', revision: '597b76b', time: '2014-09-09 20:52:38'
+System info: host: 'WS0122985', ip: '10.17.225.21', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_13'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:219)
+	at com.hsn.util.Keywords.closeModalsFast(Keywords.java:591)
+	at com.hsn.util.Keywords.addProductToBag(Keywords.java:2751)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_BagPreviewAndFunctionality -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[BagPreviewAndFunctionality passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:53:41Z" finished-at="2014-11-19T14:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.BagPreviewAndFunctionality -->
+    </test> <!-- calling BagPreviewAndFunctionality -->
+    <test name="calling BagPageEditShipping" duration-ms="107617" started-at="2014-11-19T19:53:41Z" finished-at="2014-11-19T19:55:29Z">
+      <class name="test.BagPageEditShipping">
+        <test-method status="PASS" signature="do_BagPageEditShipping(java.util.Hashtable)[pri:0, instance:[BagPageEditShipping passed=0 failed=0 skipped=0]]" name="do_BagPageEditShipping" duration-ms="107533" started-at="2014-11-19T14:53:41Z" data-provider="getData" finished-at="2014-11-19T14:55:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDWithAllShippingOptions, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:32:35-05:00, DataRow=1, SuperExpressShippingTotal=$ 166.43, Report=BagPageEditShipping_Report, standardShippingTotal=$ 160.18, Browser=Mozilla, ExpressShippingTotal=$ 160.18}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : BagPageEditShipping - Used Browser : Mozilla to verify shipping options. Bag Total for standard shipping =  $ 160.18 , express shipping =  $ 160.18  , super express shipping =  $ 166.43 TIME STAMP: 11/19/2014 02:55:29
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_BagPageEditShipping -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[BagPageEditShipping passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:55:29Z" finished-at="2014-11-19T14:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.BagPageEditShipping -->
+    </test> <!-- calling BagPageEditShipping -->
+    <test name="calling BagPageEditVariant" duration-ms="60360" started-at="2014-11-19T19:55:29Z" finished-at="2014-11-19T19:56:29Z">
+      <class name="test.BagPageEditVariant">
+        <test-method status="FAIL" signature="do_BagPageEditVariant(java.util.Hashtable)[pri:0, instance:[BagPageEditVariant passed=0 failed=0 skipped=0]]" name="do_BagPageEditVariant" duration-ms="60279" started-at="2014-11-19T14:55:29Z" data-provider="getData" finished-at="2014-11-19T14:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDWithVariants, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:35:09-05:00, DataRow=1, Report=BagPageEditVariant_Report, InitialSelectedItemSize=Size 6, Browser=Mozilla, SelectedItemSizeAfterEdit=Size 7}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:116)
+	at test.BagPageEditVariant.do_BagPageEditVariant(BagPageEditVariant.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.43.0', revision: '597b76b', time: '2014-09-09 20:52:38'
+System info: host: 'WS0122985', ip: '10.17.225.21', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_13'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:219)
+	at com.hsn.util.Keywords.closeModalsFast(Keywords.java:591)
+	at com.hsn.util.Keywords.addProductToBag(Keywords.java:2751)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_BagPageEditVariant -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[BagPageEditVariant passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:56:29Z" finished-at="2014-11-19T14:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.BagPageEditVariant -->
+    </test> <!-- calling BagPageEditVariant -->
+    <test name="calling BrowseDepartmentFlyouts" duration-ms="52014" started-at="2014-11-19T19:56:29Z" finished-at="2014-11-19T19:57:21Z">
+      <class name="test.BrowseDepartmentFlyouts">
+        <test-method status="PASS" signature="do_BreadBoxAndGridFilters(java.util.Hashtable)[pri:0, instance:[BrowseDepartmentFlyouts passed=0 failed=0 skipped=0]]" name="do_BreadBoxAndGridFilters" duration-ms="51946" started-at="2014-11-19T14:56:30Z" data-provider="getData" finished-at="2014-11-19T14:57:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=BrowseDepartmentFlyouts_Report, DataRow=1, CategoryName=BrowseDepartmentFlyouts_Report, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:37:01-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : BrowseDepartmentFlyouts - Used Browser : Mozilla completed selecting the flyouts on all depts - BrowseDepartmentFlyouts_Report TIME STAMP: 11/19/2014 02:57:21
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_BreadBoxAndGridFilters -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[BrowseDepartmentFlyouts passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T14:57:21Z" finished-at="2014-11-19T14:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+    </test> <!-- calling BrowseDepartmentFlyouts -->
+    <test name="calling CancelOrderExistingUser" duration-ms="267869" started-at="2014-11-19T19:57:22Z" finished-at="2014-11-19T20:01:49Z">
+      <class name="test.CancelOrderExistingUser">
+        <test-method status="PASS" signature="do_CancelOrder_ExistingUser(java.util.Hashtable)[pri:0, instance:[CancelOrderExistingUser passed=0 failed=0 skipped=0]]" name="do_CancelOrder_ExistingUser" duration-ms="267782" started-at="2014-11-19T14:57:22Z" data-provider="getData" finished-at="2014-11-19T15:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-10T20:24:19-05:00, DataRow=1, Password=password123, Report=CancelOrderExistingUser_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber1, OrderId=195130345, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CancelOrderExistingUser - Used Browser : Mozilla customer account '8171043594'  placed and cancelled order 1001156106 sucessfully.
+ TIME STAMP: 11/19/2014 03:01:49
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CancelOrder_ExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CancelOrderExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:01:49Z" finished-at="2014-11-19T15:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CancelOrderExistingUser -->
+    </test> <!-- calling CancelOrderExistingUser -->
+    <test name="calling CheckHSNOnAir" duration-ms="79428" started-at="2014-11-19T20:01:49Z" finished-at="2014-11-19T20:03:09Z">
+      <class name="test.CheckHSNOnAir">
+        <test-method status="PASS" signature="do_CheckHSNOnAir(java.util.Hashtable)[pri:0, instance:[CheckHSNOnAir passed=0 failed=0 skipped=0]]" name="do_CheckHSNOnAir" duration-ms="79350" started-at="2014-11-19T15:01:49Z" data-provider="getData" finished-at="2014-11-19T15:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=CheckHSNOnAir_report, RecentlyAiredProduct=PRAI Limited Edition Royal Jubilee Inspired Compact, DataRow=1, DataRunmode=Y, Result=true Timestamp: 2014-11-18T23:45:14-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase : CheckHSNOnAir - null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckHSNOnAir -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckHSNOnAir passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:03:09Z" finished-at="2014-11-19T15:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckHSNOnAir -->
+    </test> <!-- calling CheckHSNOnAir -->
+    <test name="calling CheckMultiItemsWithCoupon" duration-ms="282402" started-at="2014-11-19T20:03:09Z" finished-at="2014-11-19T20:07:51Z">
+      <class name="test.CheckMultiItemsWithCoupon">
+        <test-method status="PASS" signature="do_CheckMultiItemsWithCoupon(java.util.Hashtable)[pri:0, instance:[CheckMultiItemsWithCoupon passed=0 failed=0 skipped=0]]" name="do_CheckMultiItemsWithCoupon" duration-ms="282319" started-at="2014-11-19T15:03:09Z" data-provider="getData" finished-at="2014-11-19T15:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Actual_Discount=, Coupon=666111, CCNum=5780977375551557, Result=true Timestamp: 2014-11-18T23:51:09-05:00, DataRow=1, DiscountApplied=-$5.00
+ , Email=ovc141118114811@qa1.com, CCType=HSN, Report=CheckMultiItemsWithCoupon_Report, PrimaryPhoneNumber=8171572561, TotalSavingsMessage=You saved $5.00 on this order!, OrderId=195130347, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckMultiItemsWithCoupon - Used Browser : Mozilla  customer account ovc141119030559@qa1.com  placed order 1001156109 , with coupon 666111 and got discount -$5.00
+  sucessfully.
+ TIME STAMP: 11/19/2014 03:07:51
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckMultiItemsWithCoupon -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckMultiItemsWithCoupon passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:07:51Z" finished-at="2014-11-19T15:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+    </test> <!-- calling CheckMultiItemsWithCoupon -->
+    <test name="calling signinApplyKashCheckoutExistingUser" duration-ms="274074" started-at="2014-11-19T20:07:51Z" finished-at="2014-11-19T20:12:25Z">
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <test-method status="PASS" signature="do_signinApplyKashCheckoutExistingUser(java.util.Hashtable)[pri:0, instance:[signinApplyKashCheckoutExistingUser passed=0 failed=0 skipped=0]]" name="do_signinApplyKashCheckoutExistingUser" duration-ms="273995" started-at="2014-11-19T15:07:51Z" data-provider="getData" finished-at="2014-11-19T15:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-10T20:35:16-05:00, DataRow=1, OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130055, Email=#key_CustomerForspendableKASH, Password=password123, Report=signinApplyKashCheckoutExistingUser_Report, OrderId=1001111781, Browser=Mozilla, OrderType=SYNC, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : signinApplyKashCheckoutExistingUser - Used Browser : Mozilla customer account 'qaKashuser@hsn.com' went to warm state and placed order 1001111781 using apply KASH sucessfully.
+ TIME STAMP: 11/19/2014 03:12:25
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_signinApplyKashCheckoutExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinApplyKashCheckoutExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:12:25Z" finished-at="2014-11-19T15:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+    </test> <!-- calling signinApplyKashCheckoutExistingUser -->
+    <test name="calling signinApplyGiftCardCheckoutExistingUser" duration-ms="267859" started-at="2014-11-19T20:12:25Z" finished-at="2014-11-19T20:16:53Z">
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <test-method status="PASS" signature="do_signinApplyGiftCardCheckoutExistingUser(java.util.Hashtable)[pri:0, instance:[signinApplyGiftCardCheckoutExistingUser passed=0 failed=0 skipped=0]]" name="do_signinApplyGiftCardCheckoutExistingUser" duration-ms="267778" started-at="2014-11-19T15:12:25Z" data-provider="getData" finished-at="2014-11-19T15:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=2, DataRunmode=Y, Result=false Timestamp: 2014-11-19T06:03:10-05:00, DataRow=1, OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=166283589, DiscountApplied=-$20.00
+ , SQL1=getGiftCardNum, Email=#key_CommonAccountPhoneNumber3, GiftCardNumber=503301161759798, Password=password123, Report=signinApplyGiftCardCheckoutExistingUser_Report, OrderId=1001154618, Browser=Mozilla, OrderType=SYNC, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : signinApplyGiftCardCheckoutExistingUser - Used Browser : Mozilla  customer account '8171306652'  placed order 1001156120 , with gift card  503301161759798 and got discount -$20.00
+  for order = 1001156120  sucessfully.
+ TIME STAMP: 11/19/2014 03:16:53
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_signinApplyGiftCardCheckoutExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinApplyGiftCardCheckoutExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:16:53Z" finished-at="2014-11-19T15:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+    </test> <!-- calling signinApplyGiftCardCheckoutExistingUser -->
+    <test name="calling CheckoutAsGuest" duration-ms="258932" started-at="2014-11-19T20:16:53Z" finished-at="2014-11-19T20:21:12Z">
+      <class name="test.CheckoutAsGuest">
+        <test-method status="PASS" signature="do_CheckoutAsGuest(java.util.Hashtable)[pri:0, instance:[CheckoutAsGuest passed=0 failed=0 skipped=0]]" name="do_CheckoutAsGuest" duration-ms="258841" started-at="2014-11-19T15:16:53Z" data-provider="getData" finished-at="2014-11-19T15:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, CCNum=4929755345117674, Result=true Timestamp: 2014-11-19T06:08:40-05:00, DataRow=1, Email=ovc141119060606@qa1.com, CCType=Visa CV, Report=CheckoutAsGuest_Report, PrimaryPhoneNumber=8171402886, OrderId=195130357, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutAsGuest - Used Browser : Mozilla Created guest customer account ovc141119031943@qa1.com and placed order 1001156122 sucessfully.
+ TIME STAMP: 11/19/2014 03:21:12
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutAsGuest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckoutAsGuest passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T15:21:12Z" finished-at="2014-11-19T15:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckoutAsGuest -->
+    </test> <!-- calling CheckoutAsGuest -->
+    <test name="calling CheckoutWithDonation" duration-ms="154" started-at="2014-11-19T20:21:12Z" finished-at="2014-11-19T20:21:12Z">
+      <class name="test.CheckoutWithDonation">
+        <test-method status="SKIP" signature="do_CheckoutWithDonation(java.util.Hashtable)[pri:0, instance:[CheckoutWithDonation passed=0 failed=0 skipped=0]]" name="do_CheckoutWithDonation" duration-ms="85" started-at="2014-11-19T15:21:12Z" data-provider="getData" finished-at="2014-11-19T15:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, CCNum=5193700213267140, Result=false Timestamp: 2014-08-07T14:08:25-04:00, DataRow=1, Email=ovc140911012845@qa1.com, CCType=HSN, Report=CheckoutWithDonation_Report, PrimaryPhoneNumber=8171508088, TotalAfterDonation=$36.20, TotalBeforeDonation=$35.74, OrderId=1001123185, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping test case: CheckoutWithDonationsince the Runmode for test case is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping test case: CheckoutWithDonationsince the Runmode for test case is N
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:75)
+	at test.CheckoutWithDonation.do_CheckoutWithDonation(CheckoutWithDonation.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutWithDonation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckoutWithDonation passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:21:12Z" finished-at="2014-11-19T15:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckoutWithDonation -->
+    </test> <!-- calling CheckoutWithDonation -->
+    <test name="calling CheckoutWithPromotion" duration-ms="263933" started-at="2014-11-19T20:21:12Z" finished-at="2014-11-19T20:25:36Z">
+      <class name="test.CheckoutWithPromotion">
+        <test-method status="PASS" signature="do_CheckoutWithPromotion(java.util.Hashtable)[pri:0, instance:[CheckoutWithPromotion passed=0 failed=0 skipped=0]]" name="do_CheckoutWithPromotion" duration-ms="263852" started-at="2014-11-19T15:21:13Z" data-provider="getData" finished-at="2014-11-19T15:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDPromotionItem, Quantity=2, DataRunmode=Y, CCNum=5780970374220720, Result=false Timestamp: 2014-11-19T06:14:31-05:00, DataRow=1, OrderReviewTotalSavingsMessage=You saved $3.10 on this order!, Email=ovc141119061148@qa1.com, ItsYoursPageOrderSavingsMessage=You saved $3.10 on this order!, ShippingAndBillingSavingsMessage=You saved $3.10 on this order!, CCType=HSN, Report=CheckoutWithPromotion_Report, PrimaryPhoneNumber=8171780720, BagPageTotalSavingsMessage=You saved $3.10 on this order!, OrderId=195130359, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutWithPromotion - Used Browser : Mozilla Created customer account ovc141119032410@qa1.com and placed order 1001156124 and verfired promotion applied on bag = You saved $3.10 on this order! , shippingAndBilling = You saved $3.10 on this order! , orderReveiw = You saved $3.10 on this order! and orderConfirmation  =  You saved $3.10 on this order! TIME STAMP: 11/19/2014 03:25:36
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutWithPromotion -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckoutWithPromotion passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T15:25:36Z" finished-at="2014-11-19T15:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckoutWithPromotion -->
+    </test> <!-- calling CheckoutWithPromotion -->
+    <test name="calling ConvertGuestToHSNAccount" duration-ms="282185" started-at="2014-11-19T20:25:36Z" finished-at="2014-11-19T20:30:19Z">
+      <class name="test.ConvertGuestToHSNAccount">
+        <test-method status="PASS" signature="do_ConvertGuestToHSNAccount(java.util.Hashtable)[pri:0, instance:[ConvertGuestToHSNAccount passed=0 failed=0 skipped=0]]" name="do_ConvertGuestToHSNAccount" duration-ms="282098" started-at="2014-11-19T15:25:37Z" data-provider="getData" finished-at="2014-11-19T15:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, CCNum=4929044884250620, Result=true Timestamp: 2014-11-19T06:20:06-05:00, DataRow=1, Email=ovc141119061727@qa1.com, CCType=Visa CV, Report=ConvertGuestToHSNAccount_Report, PrimaryPhoneNumber=8171180866, OrderId=, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ConvertGuestToHSNAccount - Used Browser : Mozilla customer account ovc141119032828@qa1.com  converted form guest to HSN account TIME STAMP: 11/19/2014 03:30:18
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ConvertGuestToHSNAccount -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ConvertGuestToHSNAccount passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:30:19Z" finished-at="2014-11-19T15:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+    </test> <!-- calling ConvertGuestToHSNAccount -->
+    <test name="calling CreateArcadeUser" duration-ms="270537" started-at="2014-11-19T20:30:19Z" finished-at="2014-11-19T20:34:49Z">
+      <class name="test.CreateArcadeUser">
+        <test-method status="FAIL" signature="do_CreateArcadeUser(java.util.Hashtable)[pri:0, instance:[CreateArcadeUser passed=0 failed=0 skipped=0]]" name="do_CreateArcadeUser" duration-ms="270467" started-at="2014-11-19T15:30:19Z" data-provider="getData" finished-at="2014-11-19T15:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Welcome_Text=Welcome Sakura, DataRunmode=Y, CustID='99d4d1778a2f4a1c96dda944a7f36dd2', Result=false Timestamp: 2014-11-19T06:24:41-05:00, DataRow=1, SQL2=getGamificationNickNameCreatedID, SQL1=getCustID, Email=@key_CommonAccountLightUser2, Report=CreateArcadeUser_Report, ArcadeNickName=IAM141119062302qa1.com, GamificationNickNameCreatedID='', Browser=Mozilla, ArcadeNickNameWelcomeText=IAM141026054403q}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case CreateArcadeUser has failed due to one of its steps not returning pass status expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case CreateArcadeUser has failed due to one of its steps not returning pass status expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:152)
+	at test.CreateArcadeUser.do_CreateArcadeUser(CreateArcadeUser.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_CreateArcadeUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CreateArcadeUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:34:49Z" finished-at="2014-11-19T15:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CreateArcadeUser -->
+    </test> <!-- calling CreateArcadeUser -->
+    <test name="calling CreateLightUser" duration-ms="160632" started-at="2014-11-19T20:34:49Z" finished-at="2014-11-19T20:37:30Z">
+      <class name="test.CreateLightUser">
+        <test-method status="PASS" signature="do_CreateLightUser(java.util.Hashtable)[pri:0, instance:[CreateLightUser passed=0 failed=0 skipped=0]]" name="do_CreateLightUser" duration-ms="160549" started-at="2014-11-19T15:34:49Z" data-provider="getData" finished-at="2014-11-19T15:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=CreateLightUser_Report, DataRow=1, Welcome_Text=Welcome Sakura, DataRunmode=Y, Email=@key_CommonAccountLightUser, Result=true Timestamp: 2014-11-19T06:27:04-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CreateLightUser - Used Browser : Mozilla created light user 'ovc141119033558@qa1.com' TIME STAMP: 11/19/2014 03:37:30
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CreateLightUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CreateLightUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T15:37:30Z" finished-at="2014-11-19T15:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CreateLightUser -->
+    </test> <!-- calling CreateLightUser -->
+    <test name="calling CheckoutWithLightUserColdState" duration-ms="312131" started-at="2014-11-19T20:37:30Z" finished-at="2014-11-19T20:42:42Z">
+      <class name="test.CheckoutWithLightUserColdState">
+        <test-method status="PASS" signature="do_CheckoutWithLightUserColdState(java.util.Hashtable)[pri:0, instance:[CheckoutWithLightUserColdState passed=0 failed=0 skipped=0]]" name="do_CheckoutWithLightUserColdState" duration-ms="312049" started-at="2014-11-19T15:37:30Z" data-provider="getData" finished-at="2014-11-19T15:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130363, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber1, DataRow=1, GamificationAccountCreatedID='a2fc5a501def46f1bbc540dee8831e95', GamificationSiteVisitedID='1d6bca39a8f94dee964cc4641d085b2d', CCType=HSN, Result=true Timestamp: 2014-11-19T06:33:07-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='b3846885cab54a70a4aa38a7f3f15ef4', OrderType=ASYNC, Report=CheckoutWithLightUserColdState_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130363, Email=#key_CommonAccountLightUser, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780972775165843, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckoutWithLightUserColdState - Used Browser : Mozilla to login with Light user customer account 'ovc141119033558@qa1.com' in cold state and placed order 1001156138 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '7178a619de5644dab72228af4ae8bb86' and GamificationAccountCreatedID = '6915e09b16924b38b65184809b1fc4d0' TIME STAMP: 11/19/2014 03:42:42
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutWithLightUserColdState -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckoutWithLightUserColdState passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:42:42Z" finished-at="2014-11-19T15:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+    </test> <!-- calling CheckoutWithLightUserColdState -->
+    <test name="calling CheckoutWithLightUserHotState" duration-ms="349199" started-at="2014-11-19T20:42:42Z" finished-at="2014-11-19T20:48:31Z">
+      <class name="test.CheckoutWithLightUserHotState">
+        <test-method status="FAIL" signature="do_CheckoutWithLightUserColdState(java.util.Hashtable)[pri:0, instance:[CheckoutWithLightUserHotState passed=0 failed=0 skipped=0]]" name="do_CheckoutWithLightUserColdState" duration-ms="349121" started-at="2014-11-19T15:42:42Z" data-provider="getData" finished-at="2014-11-19T15:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130365, Browser=Mozilla, PrimaryPhoneNumber=8171378813, DataRow=1, GamificationAccountCreatedID='', GamificationSiteVisitedID='', CCType=HSN, Result=false Timestamp: 2014-11-19T06:39:55-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='48f10b8f43394d87be9af98c5b8f76ac', OrderType=ASYNC, Report=CheckoutWithLightUserHotState_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130365, Email=ovc141119063404@qa1.com, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780973613075160, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case CheckoutWithLightUserHotState has failed due to one of its steps not returning pass status expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case CheckoutWithLightUserHotState has failed due to one of its steps not returning pass status expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:152)
+	at test.CheckoutWithLightUserHotState.do_CheckoutWithLightUserColdState(CheckoutWithLightUserHotState.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_CheckoutWithLightUserColdState -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckoutWithLightUserHotState passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:48:31Z" finished-at="2014-11-19T15:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+    </test> <!-- calling CheckoutWithLightUserHotState -->
+    <test name="calling ExpressBuyExistingUser" duration-ms="177905" started-at="2014-11-19T20:48:31Z" finished-at="2014-11-19T20:51:29Z">
+      <class name="test.ExpressBuyExistingUser">
+        <test-method status="PASS" signature="do_ExpressBuyExistingUser(java.util.Hashtable)[pri:0, instance:[ExpressBuyExistingUser passed=0 failed=0 skipped=0]]" name="do_ExpressBuyExistingUser" duration-ms="177822" started-at="2014-11-19T15:48:31Z" data-provider="getData" finished-at="2014-11-19T15:51:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T06:44:12-05:00, DataRow=1, Password=password123, Report=ExpressBuyExistingUser_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, OrderId=195130367, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ExpressBuyExistingUser - Used Browser : Mozilla  customer account '8171753670'  used expresss buy and placed order 1001156146  successfully.
+ TIME STAMP: 11/19/2014 03:51:29
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ExpressBuyExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ExpressBuyExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:51:29Z" finished-at="2014-11-19T15:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ExpressBuyExistingUser -->
+    </test> <!-- calling ExpressBuyExistingUser -->
+    <test name="calling ExpressBuyExistingColdUser" duration-ms="164669" started-at="2014-11-19T20:51:29Z" finished-at="2014-11-19T20:54:14Z">
+      <class name="test.ExpressBuyExistingColdUser">
+        <test-method status="PASS" signature="do_ExpressBuyExistingColdUser(java.util.Hashtable)[pri:0, instance:[ExpressBuyExistingColdUser passed=0 failed=0 skipped=0]]" name="do_ExpressBuyExistingColdUser" duration-ms="164590" started-at="2014-11-19T15:51:29Z" data-provider="getData" finished-at="2014-11-19T15:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T06:47:55-05:00, DataRow=1, Password=password123, Report=ExpressBuyExistingColdUser_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, OrderId=195130369, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ExpressBuyExistingColdUser - Used Browser : Mozilla  customer account '8171753670'  logged in in cold state , used expresss buy and placed order 1001156149  successfully.
+ TIME STAMP: 11/19/2014 03:54:14
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ExpressBuyExistingColdUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ExpressBuyExistingColdUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:54:14Z" finished-at="2014-11-19T15:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+    </test> <!-- calling ExpressBuyExistingColdUser -->
+    <test name="calling GiftOptions" duration-ms="130188" started-at="2014-11-19T20:54:14Z" finished-at="2014-11-19T20:56:24Z">
+      <class name="test.GiftOptions">
+        <test-method status="PASS" signature="do_GiftOptions(java.util.Hashtable)[pri:0, instance:[GiftOptions passed=0 failed=0 skipped=0]]" name="do_GiftOptions" duration-ms="130111" started-at="2014-11-19T15:54:14Z" data-provider="getData" finished-at="2014-11-19T15:56:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=GiftOptions_Report, DataRow=1, DataRunmode=Y, Quantity=1, Result=true Timestamp: 2014-11-19T06:50:06-05:00, PID=#key_PIDNoVariant, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : GiftOptions - Used Browser : Mozilla successfully verified Gift Options is available for product '1114001' TIME STAMP: 11/19/2014 03:56:24
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_GiftOptions -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[GiftOptions passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T15:56:24Z" finished-at="2014-11-19T15:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.GiftOptions -->
+    </test> <!-- calling GiftOptions -->
+    <test name="calling OrderReveiwEditBillingAddress" duration-ms="253069" started-at="2014-11-19T20:56:24Z" finished-at="2014-11-19T21:00:37Z">
+      <class name="test.OrderReveiwEditBillingAddress">
+        <test-method status="PASS" signature="do_OrderReveiwEditBillingAddress(java.util.Hashtable)[pri:0, instance:[OrderReveiwEditBillingAddress passed=0 failed=0 skipped=0]]" name="do_OrderReveiwEditBillingAddress" duration-ms="252991" started-at="2014-11-19T15:56:24Z" data-provider="getData" finished-at="2014-11-19T16:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=false Timestamp: 2014-11-19T06:58:25-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber2, CCType=HSN, Password=password123, Report=OrderReveiwEditBillingAddress_Report, OrderId=1001154628, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : OrderReveiwEditBillingAddress - Used Browser : Mozilla succesfully updated billing address for user '8171753670' for  order 1001156152 TIME STAMP: 11/19/2014 04:00:37
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_OrderReveiwEditBillingAddress -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[OrderReveiwEditBillingAddress passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:00:37Z" finished-at="2014-11-19T16:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+    </test> <!-- calling OrderReveiwEditBillingAddress -->
+    <test name="calling OrderReveiwEditPhoneNumberLTL" duration-ms="281139" started-at="2014-11-19T21:00:37Z" finished-at="2014-11-19T21:05:19Z">
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <test-method status="PASS" signature="do_OrderReveiwEditPhoneNumberLTL(java.util.Hashtable)[pri:0, instance:[OrderReveiwEditPhoneNumberLTL passed=0 failed=0 skipped=0]]" name="do_OrderReveiwEditPhoneNumberLTL" duration-ms="281050" started-at="2014-11-19T16:00:38Z" data-provider="getData" finished-at="2014-11-19T16:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDLTLItem, Quantity=1, DataRunmode=Y, CCNum=378826860200221
+, Result=true Timestamp: 2014-11-19T07:04:58-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber3, CCType=AmEx, Password=password123, Report=OrderReveiwEditPhoneNumberLTL_Report, OrderId=195130371, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : OrderReveiwEditPhoneNumberLTL - Used Browser : Mozilla succesfully updated shipping phone number in order review for user '8171306652' to use pnone 8175041234 and placed order 1001156154 TIME STAMP: 11/19/2014 04:05:18
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_OrderReveiwEditPhoneNumberLTL -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[OrderReveiwEditPhoneNumberLTL passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:05:19Z" finished-at="2014-11-19T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+    </test> <!-- calling OrderReveiwEditPhoneNumberLTL -->
+    <test name="calling OrderReveiwEditShippingAddress" duration-ms="266107" started-at="2014-11-19T21:05:19Z" finished-at="2014-11-19T21:09:45Z">
+      <class name="test.OrderReveiwEditShippingAddress">
+        <test-method status="PASS" signature="do_OrderReveiwEditShippingAddress(java.util.Hashtable)[pri:0, instance:[OrderReveiwEditShippingAddress passed=0 failed=0 skipped=0]]" name="do_OrderReveiwEditShippingAddress" duration-ms="266041" started-at="2014-11-19T16:05:19Z" data-provider="getData" finished-at="2014-11-19T16:09:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:10:59-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber1, CCType=HSN, Password=password123, Report=OrderReveiwEditShippingAddress_Report, OrderId=195130373, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : OrderReveiwEditShippingAddress - Used Browser : Mozilla succesfully updated shipping address for user '8171373950' for  order 1001156155 TIME STAMP: 11/19/2014 04:09:44
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_OrderReveiwEditShippingAddress -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[OrderReveiwEditShippingAddress passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:09:45Z" finished-at="2014-11-19T16:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+    </test> <!-- calling OrderReveiwEditShippingAddress -->
+    <test name="calling OrderReveiwForFlexPayItem" duration-ms="229067" started-at="2014-11-19T21:09:45Z" finished-at="2014-11-19T21:13:34Z">
+      <class name="test.OrderReveiwForFlexPayItem">
+        <test-method status="PASS" signature="do_OOrderReveiwForFlexPayItem(java.util.Hashtable)[pri:0, instance:[OrderReveiwForFlexPayItem passed=0 failed=0 skipped=0]]" name="do_OOrderReveiwForFlexPayItem" duration-ms="229001" started-at="2014-11-19T16:09:45Z" data-provider="getData" finished-at="2014-11-19T16:13:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NewFlexpayOption=flexpay Option2, PID=#key_PIDflexItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:16:21-05:00, DataRow=1, Password=password123, Report=OrderReveiwForFlexPayItem_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, OrderId=195130375, Browser=Mozilla, NumberOfFlexPayments=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : OrderReveiwForFlexPayItem - Used Browser : Mozilla succesfully updated flexpayOptions in order review to use flexpay Option2 for  '8171753670' and placed order 1001156158 TIME STAMP: 11/19/2014 04:13:33
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_OOrderReveiwForFlexPayItem -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[OrderReveiwForFlexPayItem passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:13:34Z" finished-at="2014-11-19T16:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+    </test> <!-- calling OrderReveiwForFlexPayItem -->
+    <test name="calling PromoType_VIP" duration-ms="201977" started-at="2014-11-19T21:13:34Z" finished-at="2014-11-19T21:16:56Z">
+      <class name="test.PromoType_VIP">
+        <test-method status="PASS" signature="do_PromoType_VIP(java.util.Hashtable)[pri:0, instance:[PromoType_VIP passed=0 failed=0 skipped=0]]" name="do_PromoType_VIP" duration-ms="201911" started-at="2014-11-19T16:13:34Z" data-provider="getData" finished-at="2014-11-19T16:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDVipPromotion, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:20:46-05:00, DataRow=1, Password=password123, CCType=HSN, Report=PromoType_VIP_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, OrderId=195130377, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : PromoType_VIP - Used Browser : Mozilla customer with phone '8171306652' was able to get VIP promotion for '1108195' and place order 1001156162 sucessfully. TIME STAMP: 11/19/2014 04:16:56
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_PromoType_VIP -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[PromoType_VIP passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:16:56Z" finished-at="2014-11-19T16:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.PromoType_VIP -->
+    </test> <!-- calling PromoType_VIP -->
+    <test name="calling PromoType_ExtraFlex" duration-ms="220150" started-at="2014-11-19T21:16:56Z" finished-at="2014-11-19T21:20:36Z">
+      <class name="test.PromoType_ExtraFlex">
+        <test-method status="PASS" signature="do_PromoType_ExtraFlex(java.util.Hashtable)[pri:0, instance:[PromoType_ExtraFlex passed=0 failed=0 skipped=0]]" name="do_PromoType_ExtraFlex" duration-ms="220083" started-at="2014-11-19T16:16:56Z" data-provider="getData" finished-at="2014-11-19T16:20:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDExtraflexItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:25:28-05:00, DataRow=1, Password=password123, CCType=HSN, Report=PromoType_ExtraFlex_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, OrderId=195130379, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : PromoType_ExtraFlex - Used Browser : Mozilla  customer with phone '8171306652' was able to get extraflexpromotion for '1123328' and place order 1001156169 sucessfully. TIME STAMP: 11/19/2014 04:20:36
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_PromoType_ExtraFlex -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[PromoType_ExtraFlex passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:20:36Z" finished-at="2014-11-19T16:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.PromoType_ExtraFlex -->
+    </test> <!-- calling PromoType_ExtraFlex -->
+    <test name="calling SearchByKeyword" duration-ms="105295" started-at="2014-11-19T21:20:36Z" finished-at="2014-11-19T21:22:21Z">
+      <class name="test.SearchByKeyword">
+        <test-method status="PASS" signature="do_SearchByKeyword(java.util.Hashtable)[pri:0, instance:[SearchByKeyword passed=0 failed=0 skipped=0]]" name="do_SearchByKeyword" duration-ms="53073" started-at="2014-11-19T16:20:36Z" data-provider="getData" finished-at="2014-11-19T16:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SearchByKeyword_Report, DataRow=1, SearchString=bowl, DataRunmode=Y, SearchResults=342, Result=true Timestamp: 2014-11-19T07:27:16-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CreateLightUser - Used Browser : Mozilla successfully searched By keyword bowl and founds 342 TIME STAMP: 11/19/2014 04:21:29
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SearchByKeyword -->
+        <test-method status="PASS" signature="do_SearchByKeyword(java.util.Hashtable)[pri:0, instance:[SearchByKeyword passed=0 failed=0 skipped=0]]" name="do_SearchByKeyword" duration-ms="52133" started-at="2014-11-19T16:21:29Z" data-provider="getData" finished-at="2014-11-19T16:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SearchByKeyword_Report, DataRow=1, SearchString=, DataRunmode=Y, SearchResults=342, Result=true Timestamp: 2014-09-24T21:24:38-04:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CreateLightUser - Used Browser : Mozilla successfully searched By keyword bowl and founds 342 TIME STAMP: 11/19/2014 04:22:21
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SearchByKeyword -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SearchByKeyword passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:22:21Z" finished-at="2014-11-19T16:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SearchByKeyword -->
+    </test> <!-- calling SearchByKeyword -->
+    <test name="calling signinCheckoutExistingAddprotectionPlan" duration-ms="210635" started-at="2014-11-19T21:22:21Z" finished-at="2014-11-19T21:25:52Z">
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <test-method status="PASS" signature="do_signinCheckoutExistingAddprotectionPlan(java.util.Hashtable)[pri:0, instance:test.signinCheckoutExistingAddprotectionPlan@751bbe4f]" name="do_signinCheckoutExistingAddprotectionPlan" duration-ms="210466" started-at="2014-11-19T16:22:22Z" data-provider="getData" finished-at="2014-11-19T16:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDHPPItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:31:45-05:00, DataRow=1, HPP_Price=$124.95, Password=password123, Report=signinCheckoutExistingAddprotectionPlan_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, OrderId=195130381, Browser=Mozilla, NumberOfFlexPayments=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_signinCheckoutExistingAddprotectionPlan -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.signinCheckoutExistingAddprotectionPlan@751bbe4f]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:25:52Z" finished-at="2014-11-19T16:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+    </test> <!-- calling signinCheckoutExistingAddprotectionPlan -->
+    <test name="calling signinCheckoutExistingUser" duration-ms="228676" started-at="2014-11-19T21:25:52Z" finished-at="2014-11-19T21:29:41Z">
+      <class name="test.signinCheckoutExistingUser">
+        <test-method status="PASS" signature="do_signinCheckoutExistingUser(java.util.Hashtable)[pri:0, instance:[signinCheckoutExistingUser passed=0 failed=0 skipped=0]]" name="do_signinCheckoutExistingUser" duration-ms="228585" started-at="2014-11-19T16:25:52Z" data-provider="getData" finished-at="2014-11-19T16:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130383, Browser=Mozilla, Password=password123, DataRow=1, PromotionalSavingsAmount=You saved $1.97 on this order!, ReviewpageSubtotalAmount=59.80, Result=true Timestamp: 2014-11-19T07:36:28-05:00, Quantity=2, NumberOfFlexPayments=1, SummaryTotal=$73.96, EstimatedTax=4.84, OrderType=ASYNC, Report=signinCheckoutExistingUser_Report, PID=#key_PIDPromotionItem, ShippingAndBilling=9.32, DataRunmode=Y, OrderId=195130383, Email=#key_CommonAccountPhoneNumber3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : signinCheckoutExistingUser -  Used Browser : Mozilla Hot state customer account '8171306652' placed order 1001156181 sucessfully. ReviewpageSubtotalAmount =  59.80 , ShippingAndBilling =  9.32 , EstimatedTax =  4.84 , SummaryTotal =  $73.96 . Order type = SYNC TIME STAMP: 11/19/2014 04:29:41
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_signinCheckoutExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinCheckoutExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:29:41Z" finished-at="2014-11-19T16:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinCheckoutExistingUser -->
+    </test> <!-- calling signinCheckoutExistingUser -->
+    <test name="calling signinCheckoutExistingUserAutoShip" duration-ms="198757" started-at="2014-11-19T21:29:41Z" finished-at="2014-11-19T21:33:00Z">
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <test-method status="PASS" signature="do_signinCheckoutExistingUserAutoShip(java.util.Hashtable)[pri:0, instance:[signinCheckoutExistingUserAutoShip passed=0 failed=0 skipped=0]]" name="do_signinCheckoutExistingUserAutoShip" duration-ms="198682" started-at="2014-11-19T16:29:41Z" data-provider="getData" finished-at="2014-11-19T16:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDAutoShipItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:40:53-05:00, DataRow=1, Password=password123, CCType=HSN, Report=signinCheckoutExistingUserAutoShip_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, ExtraFlexPaymentOption=, Frequency=30, OrderId=195130385, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : signinCheckoutExistingUserAutoShip - Used Browser : Mozilla Created customer account '8171306652' and placed order 1001156185 sucessfully.
+ TIME STAMP: 11/19/2014 04:32:59
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_signinCheckoutExistingUserAutoShip -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinCheckoutExistingUserAutoShip passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T16:33:00Z" finished-at="2014-11-19T16:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+    </test> <!-- calling signinCheckoutExistingUserAutoShip -->
+    <test name="calling signinCheckoutExistingUserFlexPay" duration-ms="10998666" started-at="2014-11-19T21:33:00Z" finished-at="2014-11-20T00:36:18Z">
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <test-method status="FAIL" signature="do_signinCheckoutExistingUserFlexPay(java.util.Hashtable)[pri:0, instance:[signinCheckoutExistingUserFlexPay passed=0 failed=0 skipped=0]]" name="do_signinCheckoutExistingUserFlexPay" duration-ms="10998580" started-at="2014-11-19T16:33:00Z" data-provider="getData" finished-at="2014-11-19T19:36:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDflexItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:45:21-05:00, DataRow=1, Password=password123, Report=signinCheckoutExistingUserFlexPay_Report, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, OrderId=195130387, Browser=Mozilla, NumberOfFlexPayments=2}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:116)
+	at test.signinCheckoutExistingUserFlexPay.do_signinCheckoutExistingUserFlexPay(signinCheckoutExistingUserFlexPay.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.43.0', revision: '597b76b', time: '2014-09-09 20:52:38'
+System info: host: 'WS0122985', ip: '10.17.225.21', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_13'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:219)
+	at com.hsn.util.Keywords.closeModals(Keywords.java:564)
+	at com.hsn.util.Keywords.writeInInput(Keywords.java:1444)
+	... 28 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_signinCheckoutExistingUserFlexPay -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinCheckoutExistingUserFlexPay passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:36:18Z" finished-at="2014-11-19T19:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+    </test> <!-- calling signinCheckoutExistingUserFlexPay -->
+    <test name="calling signinCheckoutExistingUserColdState" duration-ms="220776" started-at="2014-11-20T00:36:18Z" finished-at="2014-11-20T00:39:59Z">
+      <class name="test.signinCheckoutExistingUserColdState">
+        <test-method status="PASS" signature="do_signinCheckoutExistingUserColdState(java.util.Hashtable)[pri:0, instance:[signinCheckoutExistingUserColdState passed=0 failed=0 skipped=0]]" name="do_signinCheckoutExistingUserColdState" duration-ms="220702" started-at="2014-11-19T19:36:18Z" data-provider="getData" finished-at="2014-11-19T19:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:49:40-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber3, Password=password123, Report=signinCheckoutExistingUserColdState_Report, OrderId=195130391, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : signinCheckoutExistingUserColdState - Used Browser : Mozilla cold state  customer account '8171306652' placed order 1001156229 sucessfully
+ TIME STAMP: 11/19/2014 07:39:59
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_signinCheckoutExistingUserColdState -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinCheckoutExistingUserColdState passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:39:59Z" finished-at="2014-11-19T19:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+    </test> <!-- calling signinCheckoutExistingUserColdState -->
+    <test name="calling signinCheckoutExistingMatrixItem" duration-ms="205653" started-at="2014-11-20T00:39:59Z" finished-at="2014-11-20T00:43:25Z">
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <test-method status="PASS" signature="do_signinCheckoutExistingMatrixItem(java.util.Hashtable)[pri:0, instance:[signinCheckoutExistingMatrixItem passed=0 failed=0 skipped=0]]" name="do_signinCheckoutExistingMatrixItem" duration-ms="205588" started-at="2014-11-19T19:39:59Z" data-provider="getData" finished-at="2014-11-19T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDMatrixItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:54:10-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber3, Password=password123, Report=signinCheckoutExistingMatrixItem_Report, OrderId=195130395, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : signinCheckoutExistingMatrixItem -  Used Browser : Mozilla customer account '8171306652'  placed order 1001156230  successfully for Matrix item '135348' TIME STAMP: 11/19/2014 07:43:25
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_signinCheckoutExistingMatrixItem -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[signinCheckoutExistingMatrixItem passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:43:25Z" finished-at="2014-11-19T19:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+    </test> <!-- calling signinCheckoutExistingMatrixItem -->
+    <test name="calling SocialSignInFacebook" duration-ms="109352" started-at="2014-11-20T00:43:25Z" finished-at="2014-11-20T00:45:14Z">
+      <class name="test.SocialSignInFacebook">
+        <test-method status="PASS" signature="do_SocialSignInFacebook(java.util.Hashtable)[pri:0, instance:[SocialSignInFacebook passed=0 failed=0 skipped=0]]" name="do_SocialSignInFacebook" duration-ms="109271" started-at="2014-11-19T19:43:25Z" data-provider="getData" finished-at="2014-11-19T19:45:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SocialSignInFacebook_Report, Username=Verona.s2013@yahoo.com, DataRow=1, Password=verona2013, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:56:15-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : SocialSignInFacebook - Used Browser : Mozilla sucessfully signed in using facebook user Verona.s2013@yahoo.com and signed out. TIME STAMP: 11/19/2014 07:45:14
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SocialSignInFacebook -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SocialSignInFacebook passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T19:45:14Z" finished-at="2014-11-19T19:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SocialSignInFacebook -->
+    </test> <!-- calling SocialSignInFacebook -->
+    <test name="calling SocialSignInGoogle" duration-ms="140924" started-at="2014-11-20T00:45:14Z" finished-at="2014-11-20T00:47:35Z">
+      <class name="test.SocialSignInGoogle">
+        <test-method status="PASS" signature="do_SocialSignInGoogle(java.util.Hashtable)[pri:0, instance:[SocialSignInGoogle passed=0 failed=0 skipped=0]]" name="do_SocialSignInGoogle" duration-ms="140854" started-at="2014-11-19T19:45:14Z" data-provider="getData" finished-at="2014-11-19T19:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SocialSignInGoogle_Report, Username=Greg.Sokolov2013@gmail.com, DataRow=1, Password=qatest2013, DataRunmode=Y, Result=true Timestamp: 2014-11-19T07:58:38-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : SocialSignInGoogle - Used Browser : Mozilla sucessfully signed in using google plus user Greg.Sokolov2013@gmail.com and signed out. TIME STAMP: 11/19/2014 07:47:35
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SocialSignInGoogle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SocialSignInGoogle passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T19:47:35Z" finished-at="2014-11-19T19:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SocialSignInGoogle -->
+    </test> <!-- calling SocialSignInGoogle -->
+    <test name="calling SocialSignInTwitter" duration-ms="111572" started-at="2014-11-20T00:47:35Z" finished-at="2014-11-20T00:49:27Z">
+      <class name="test.SocialSignInTwitter">
+        <test-method status="PASS" signature="do_SocialSignInTwitter(java.util.Hashtable)[pri:0, instance:[SocialSignInTwitter passed=0 failed=0 skipped=0]]" name="do_SocialSignInTwitter" duration-ms="111483" started-at="2014-11-19T19:47:35Z" data-provider="getData" finished-at="2014-11-19T19:49:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SocialSignInTwitter_Report, Username=kumar_hsn_auto, DataRow=1, Password=Saindhava1, DataRunmode=Y, Result=true Timestamp: 2014-11-19T08:00:44-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : SocialSignInTwitter - Used Browser : Mozilla sucessfully signed in using Twitter user kumar_hsn_auto and signed out. TIME STAMP: 11/19/2014 07:49:27
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SocialSignInTwitter -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SocialSignInTwitter passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:49:27Z" finished-at="2014-11-19T19:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SocialSignInTwitter -->
+    </test> <!-- calling SocialSignInTwitter -->
+    <test name="calling SocialSignInYahoo" duration-ms="148194" started-at="2014-11-20T00:49:27Z" finished-at="2014-11-20T00:51:55Z">
+      <class name="test.SocialSignInYahoo">
+        <test-method status="PASS" signature="do_SocialSignInYahoo(java.util.Hashtable)[pri:0, instance:[SocialSignInYahoo passed=0 failed=0 skipped=0]]" name="do_SocialSignInYahoo" duration-ms="148127" started-at="2014-11-19T19:49:27Z" data-provider="getData" finished-at="2014-11-19T19:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SocialSignInYahoo_Report, Username=Verona.s2013@yahoo.com, DataRow=1, Password=qatest2013, DataRunmode=Y, Result=true Timestamp: 2014-11-19T08:03:23-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : SocialSignInYahoo - Used Browser : Mozilla sucessfully signed in using yahoo user Verona.s2013@yahoo.com and signed out. TIME STAMP: 11/19/2014 07:51:55
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SocialSignInYahoo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SocialSignInYahoo passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:51:55Z" finished-at="2014-11-19T19:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SocialSignInYahoo -->
+    </test> <!-- calling SocialSignInYahoo -->
+    <test name="calling SuggestiveSearch" duration-ms="54610" started-at="2014-11-20T00:51:55Z" finished-at="2014-11-20T00:52:50Z">
+      <class name="test.SuggestiveSearch">
+        <test-method status="PASS" signature="do_SuggestiveSearch(java.util.Hashtable)[pri:0, instance:[SuggestiveSearch passed=0 failed=0 skipped=0]]" name="do_SuggestiveSearch" duration-ms="54535" started-at="2014-11-19T19:51:55Z" data-provider="getData" finished-at="2014-11-19T19:52:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=SuggestiveSearch_Report, DataRow=1, SearchString=fork, DataRunmode=Y, FirstMatchingSuggestion=328-710
+Carol Fertig HAPPY Collection Fork & Spoon Serving Set, Result=true Timestamp: 2014-11-19T08:04:19-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : SuggestiveSearch - Used Browser : Mozilla searched for fork and found the first matchig item as 328-710
+Carol Fertig HAPPY Collection Fork & Spoon Serving Set TIME STAMP: 11/19/2014 07:52:49
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_SuggestiveSearch -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SuggestiveSearch passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:52:50Z" finished-at="2014-11-19T19:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SuggestiveSearch -->
+    </test> <!-- calling SuggestiveSearch -->
+    <test name="calling OrderReveiwEditPaymentmethodNewCC" duration-ms="267798" started-at="2014-11-20T00:52:50Z" finished-at="2014-11-20T00:57:18Z">
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <test-method status="PASS" signature="do_OrderReveiwEditPaymentmethodNewCC(java.util.Hashtable)[pri:0, instance:[OrderReveiwEditPaymentmethodNewCC passed=0 failed=0 skipped=0]]" name="do_OrderReveiwEditPaymentmethodNewCC" duration-ms="267731" started-at="2014-11-19T19:52:50Z" data-provider="getData" finished-at="2014-11-19T19:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, CCNum=5780970175541563, Result=true Timestamp: 2014-11-10T22:22:39-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber2, CCType=HSN, Password=password123, Report=OrderReveiwEditPaymentmethodNewCC_Report, OrderId=1001154644, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : OrderReveiwEditPaymentmethodNewCC - Used Browser : Mozilla succesfully updated payment method for user '8171753670' to use a new Credit card 5780974833658041 and placed order 1001156231 TIME STAMP: 11/19/2014 07:57:17
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_OrderReveiwEditPaymentmethodNewCC -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[OrderReveiwEditPaymentmethodNewCC passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T19:57:18Z" finished-at="2014-11-19T19:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+    </test> <!-- calling OrderReveiwEditPaymentmethodNewCC -->
+    <test name="calling OrderReveiwEditPaymentmethodNewDebitCard" duration-ms="268560" started-at="2014-11-20T00:57:18Z" finished-at="2014-11-20T01:01:46Z">
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <test-method status="PASS" signature="do_OrderReveiwEditPaymentmethodNewDebitCard(java.util.Hashtable)[pri:0, instance:[OrderReveiwEditPaymentmethodNewDebitCard passed=0 failed=0 skipped=0]]" name="do_OrderReveiwEditPaymentmethodNewDebitCard" duration-ms="268491" started-at="2014-11-19T19:57:18Z" data-provider="getData" finished-at="2014-11-19T20:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, CCNum=373800841552351, Result=false Timestamp: 2014-11-19T08:21:24-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber2, CCType=AmEx, Password=password123, Report=OrderReveiwEditPaymentmethodDebit_Report, OrderId=1001154646, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : OrderReveiwEditPaymentmethodNewDebitCard - Used Browser : Mozilla succesfully updated payment method for user '8171753670' to use a new Debit card 376886825514431 and placed order 1001156232 TIME STAMP: 11/19/2014 08:01:46
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_OrderReveiwEditPaymentmethodNewDebitCard -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[OrderReveiwEditPaymentmethodNewDebitCard passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T20:01:46Z" finished-at="2014-11-19T20:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+    </test> <!-- calling OrderReveiwEditPaymentmethodNewDebitCard -->
+    <test name="calling ReviewProductForexistingUser" duration-ms="204017" started-at="2014-11-20T01:01:46Z" finished-at="2014-11-20T01:05:10Z">
+      <class name="test.ReviewProductForexistingUser">
+        <test-method status="PASS" signature="do_ReviewProductForexistingUser(java.util.Hashtable)[pri:0, instance:[ReviewProductForexistingUser passed=0 failed=0 skipped=0]]" name="do_ReviewProductForexistingUser" duration-ms="203945" started-at="2014-11-19T20:01:46Z" data-provider="getData" finished-at="2014-11-19T20:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, ReviewID='3235949', Result=true Timestamp: 2014-11-19T08:24:49-05:00, CUSTID='16ba0765eac1407fb0392d7ebd96d6c2', SQL3=getReviewIDForCustomer, DataRow=1, SQL2=insertReviewForCustomer, SQL1=getCustID, Email=#key_CommonAccountEmail2, Password=password123, Report=ReviewProductForexistingUser_Report, ArcadeNickName=IAM141119082308qa1.com, OrderId=, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ReviewProductForexistingUser - Used Browser : Mozilla customer account 'ovc141119021017@qa1.com' placed a review '3235950' for product  6753585 sucessfully.
+ TIME STAMP: 11/19/2014 08:05:10
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ReviewProductForexistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ReviewProductForexistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:05:10Z" finished-at="2014-11-19T20:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ReviewProductForexistingUser -->
+    </test> <!-- calling ReviewProductForexistingUser -->
+    <test name="calling AccountUpdatePaymentMethodPaypal" duration-ms="143161" started-at="2014-11-20T01:05:10Z" finished-at="2014-11-20T01:07:33Z">
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <test-method status="PASS" signature="do_AccountUpdatePaymentMethodPaypal(java.util.Hashtable)[pri:0, instance:[AccountUpdatePaymentMethodPaypal passed=0 failed=0 skipped=0]]" name="do_AccountUpdatePaymentMethodPaypal" duration-ms="143084" started-at="2014-11-19T20:05:10Z" data-provider="getData" finished-at="2014-11-19T20:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=AccountUpdatePaymentMethodPaypal_Report, DataRow=1, Password=password123, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, DataRunmode=Y, Result=true Timestamp: 2014-11-19T08:27:15-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : AccountUpdatePaymentMethodPaypal - Used Browser : Mozilla customer account '8171753670' was able to launch paypal payment option.
+ TIME STAMP: 11/19/2014 08:07:33
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_AccountUpdatePaymentMethodPaypal -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[AccountUpdatePaymentMethodPaypal passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:07:33Z" finished-at="2014-11-19T20:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+    </test> <!-- calling AccountUpdatePaymentMethodPaypal -->
+    <test name="calling CheckPaypalExpress" duration-ms="101320" started-at="2014-11-20T01:07:34Z" finished-at="2014-11-20T01:09:15Z">
+      <class name="test.CheckPaypalExpress">
+        <test-method status="PASS" signature="do_CheckPaypalExpress(java.util.Hashtable)[pri:0, instance:[CheckPaypalExpress passed=0 failed=0 skipped=0]]" name="do_CheckPaypalExpress" duration-ms="101251" started-at="2014-11-19T20:07:34Z" data-provider="getData" finished-at="2014-11-19T20:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=CheckPaypalExpress_Report, DataRow=1, DataRunmode=Y, Quantity=1, Result=true Timestamp: 2014-11-19T08:28:58-05:00, PID=#key_PIDNoVariant, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : CheckPaypalExpress - Used Browser : Mozilla . Verified that paypal page launches from your Bag page when user selects the express paypal option TIME STAMP: 11/19/2014 08:09:14
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_CheckPaypalExpress -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckPaypalExpress passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:09:15Z" finished-at="2014-11-19T20:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckPaypalExpress -->
+    </test> <!-- calling CheckPaypalExpress -->
+    <test name="calling CheckTaxAndSavingsOnBagPage" duration-ms="60981" started-at="2014-11-20T01:09:15Z" finished-at="2014-11-20T01:10:16Z">
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <test-method status="FAIL" signature="do_CheckTaxAndSavingsOnBagPage(java.util.Hashtable)[pri:0, instance:[CheckTaxAndSavingsOnBagPage passed=0 failed=0 skipped=0]]" name="do_CheckTaxAndSavingsOnBagPage" duration-ms="60914" started-at="2014-11-19T20:09:15Z" data-provider="getData" finished-at="2014-11-19T20:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDWithVariants, Quantity=2, DataRunmode=Y, Result=false Timestamp: 2014-11-19T08:31:40-05:00, DataRow=1, ZIPCODE=30342, YourBagPageTaxAmount=0.00, Report=CheckTaxAndSavingsOnBagPage_Report, BagPageTotalSavingsMessage=You saved $2.97 on this order!, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:116)
+	at test.CheckTaxAndSavingsOnBagPage.do_CheckTaxAndSavingsOnBagPage(CheckTaxAndSavingsOnBagPage.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.43.0', revision: '597b76b', time: '2014-09-09 20:52:38'
+System info: host: 'WS0122985', ip: '10.17.225.21', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_13'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:219)
+	at com.hsn.util.Keywords.closeModalsFast(Keywords.java:591)
+	at com.hsn.util.Keywords.addProductToBag(Keywords.java:2751)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_CheckTaxAndSavingsOnBagPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[CheckTaxAndSavingsOnBagPage passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:10:16Z" finished-at="2014-11-19T20:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+    </test> <!-- calling CheckTaxAndSavingsOnBagPage -->
+    <test name="calling ManageAutoshipChangeFreq" duration-ms="223624" started-at="2014-11-20T01:10:16Z" finished-at="2014-11-20T01:14:00Z">
+      <class name="test.ManageAutoshipChangeFreq">
+        <test-method status="PASS" signature="do_ManageAutoshipChangeFreq(java.util.Hashtable)[pri:0, instance:[ManageAutoshipChangeFreq passed=0 failed=0 skipped=0]]" name="do_ManageAutoshipChangeFreq" duration-ms="223554" started-at="2014-11-19T20:10:16Z" data-provider="getData" finished-at="2014-11-19T20:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDAutoShipItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-10T22:40:47-05:00, SQL3=updatePaymentStatus, DataRow=1, SQL2=updateOrderStatus, SQL1=getOrderRowId, Password=password123, CCType=HSN, Report=ManageAutoshipChangeFreq_Report, OrderRowId='', PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, OrderId=195130401, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ManageAutoshipChangeFreq - Used Browser : Mozilla customer account '8171753670' to place an autoship order and then change the autoship frequency
+ TIME STAMP: 11/19/2014 08:13:59
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ManageAutoshipChangeFreq -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ManageAutoshipChangeFreq passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T20:14:00Z" finished-at="2014-11-19T20:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+    </test> <!-- calling ManageAutoshipChangeFreq -->
+    <test name="calling ManageAutoshipChangeShipDate" duration-ms="230678" started-at="2014-11-20T01:14:00Z" finished-at="2014-11-20T01:17:50Z">
+      <class name="test.ManageAutoshipChangeShipDate">
+        <test-method status="PASS" signature="do_ManageAutoshipChangeShipDate(java.util.Hashtable)[pri:0, instance:[ManageAutoshipChangeShipDate passed=0 failed=0 skipped=0]]" name="do_ManageAutoshipChangeShipDate" duration-ms="230610" started-at="2014-11-19T20:14:00Z" data-provider="getData" finished-at="2014-11-19T20:17:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=Mozilla, PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, Password=password123, DataRow=1, OrderRowId='', NewNextAutoShipDate=01/14/2015, CCType=HSN, Result=false Timestamp: 2014-11-19T08:46:37-05:00, Quantity=1, NumberOfFlexPayments=, Report=ManageAutoshipChangeShipDate_Report, PID=#key_PIDAutoShipItem, DataRunmode=Y, OldNextAutoShipDate=01/10/2015, OrderId=195130403, SQL3=updatePaymentStatus, SQL2=updateOrderStatus, SQL1=getOrderRowId}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ManageAutoshipChangeShipDate - Used Browser : Mozilla customer account '8171753670' to place an autoship order for Product '136297' and then change the Next AutoShip date from 01/19/2015 to 01/14/2015 TIME STAMP: 11/19/2014 08:17:50
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ManageAutoshipChangeShipDate -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ManageAutoshipChangeShipDate passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:17:50Z" finished-at="2014-11-19T20:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+    </test> <!-- calling ManageAutoshipChangeShipDate -->
+    <test name="calling ManageAutoshipEditShipping" duration-ms="297673" started-at="2014-11-20T01:17:50Z" finished-at="2014-11-20T01:22:48Z">
+      <class name="test.ManageAutoshipEditShipping">
+        <test-method status="PASS" signature="do_ManageAutoshipEditShipping(java.util.Hashtable)[pri:0, instance:[ManageAutoshipEditShipping passed=0 failed=0 skipped=0]]" name="do_ManageAutoshipEditShipping" duration-ms="297607" started-at="2014-11-19T20:17:50Z" data-provider="getData" finished-at="2014-11-19T20:22:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDAutoShipItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-10T22:49:35-05:00, SQL3=updatePaymentStatus, DataRow=1, SQL2=updateOrderStatus, SQL1=getOrderRowId, Password=password123, CCType=HSN, Report=ManageAutoshipEditShipping_Report, OrderRowId='', PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, OrderId=195130405, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ManageAutoshipEditShipping - Used Browser : Mozilla customer account '8171753670' to place an autoship order = 1001156235 and then change the Shipping Address TIME STAMP: 11/19/2014 08:22:48
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ManageAutoshipEditShipping -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ManageAutoshipEditShipping passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:22:48Z" finished-at="2014-11-19T20:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ManageAutoshipEditShipping -->
+    </test> <!-- calling ManageAutoshipEditShipping -->
+    <test name="calling ManageAutoshipAddNewCC" duration-ms="353687" started-at="2014-11-20T01:22:48Z" finished-at="2014-11-20T01:28:42Z">
+      <class name="test.ManageAutoshipAddNewCC">
+        <test-method status="PASS" signature="do_ManageAutoshipAddNewCC(java.util.Hashtable)[pri:0, instance:[ManageAutoshipAddNewCC passed=0 failed=0 skipped=0]]" name="do_ManageAutoshipAddNewCC" duration-ms="353602" started-at="2014-11-19T20:22:48Z" data-provider="getData" finished-at="2014-11-19T20:28:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDAutoShipItem, Quantity=1, DataRunmode=Y, CCNum=4013603316225703, Result=true Timestamp: 2014-11-10T22:54:32-05:00, SQL3=updatePaymentStatus, DataRow=1, SQL2=updateOrderStatus, SQL1=getOrderRowId, Password=password123, CCType=Visa - Citibank, Report=ManageAutoshipAddNewCC_Report, OrderRowId='', PrimaryPhoneNumber=#key_CommonAccountPhoneNumber2, OrderId=195130407, Browser=Mozilla, NumberOfFlexPayments=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ManageAutoshipAddNewCC - Used Browser : Mozilla customer account '8171753670' to place a flex pay order 1001156236 and add a new cc  4013576474210354 to be used on future flex payments
+ TIME STAMP: 11/19/2014 08:28:41
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ManageAutoshipAddNewCC -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ManageAutoshipAddNewCC passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:28:42Z" finished-at="2014-11-19T20:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+    </test> <!-- calling ManageAutoshipAddNewCC -->
+    <test name="calling ManageFlexPayAddNewCC" duration-ms="326163" started-at="2014-11-20T01:28:42Z" finished-at="2014-11-20T01:34:08Z">
+      <class name="test.ManageFlexPayAddNewCC">
+        <test-method status="PASS" signature="do_ManageFlexPayAddNewCC(java.util.Hashtable)[pri:0, instance:[ManageFlexPayAddNewCC passed=0 failed=0 skipped=0]]" name="do_ManageFlexPayAddNewCC" duration-ms="326088" started-at="2014-11-19T20:28:42Z" data-provider="getData" finished-at="2014-11-19T20:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDflexItem, Quantity=1, DataRunmode=Y, CCNum=4929858538083206, Result=true Timestamp: 2014-11-10T23:00:01-05:00, SQL3=updatePaymentStatus, DataRow=1, SQL2=updateOrderStatus, SQL1=getOrderRowId, Password=password123, CCType=Visa CV, Report=ManageFlexPayAddNewCC_Report, OrderRowId='', PrimaryPhoneNumber=#key_CommonAccountPhoneNumber4, OrderId=195130409, Browser=Mozilla, NumberOfFlexPayments=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ManageFlexPayAddNewCC - Used Browser : Mozilla customer account PrimaryPhoneNumber '8171404240' to place a flex pay order 1001156237 and add a new cc  4929485076706178 to be used on future flex payments
+ TIME STAMP: 11/19/2014 08:34:08
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ManageFlexPayAddNewCC -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ManageFlexPayAddNewCC passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:34:08Z" finished-at="2014-11-19T20:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+    </test> <!-- calling ManageFlexPayAddNewCC -->
+    <test name="calling ManageFlexPayChangeCC" duration-ms="346770" started-at="2014-11-20T01:34:08Z" finished-at="2014-11-20T01:39:55Z">
+      <class name="test.ManageFlexPayChangeCC">
+        <test-method status="PASS" signature="do_ManageFlexPayChangeCC(java.util.Hashtable)[pri:0, instance:[ManageFlexPayChangeCC passed=0 failed=0 skipped=0]]" name="do_ManageFlexPayChangeCC" duration-ms="346694" started-at="2014-11-19T20:34:08Z" data-provider="getData" finished-at="2014-11-19T20:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDflexItem, Quantity=1, DataRunmode=Y, Result=true Timestamp: 2014-11-10T23:05:34-05:00, SQL3=updatePaymentStatus, DataRow=1, SQL2=updateOrderStatus, SQL1=getOrderRowId, Password=password123, Report=ManageFlexPayChangeCC_Report, OrderRowId='', PrimaryPhoneNumber=#key_CommonAccountPhoneNumber4, OrderId=195130413, Browser=Mozilla, NumberOfFlexPayments=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : ManageFlexPayChangeCC - Used Browser : Mozilla customer with PrimaryPhoneNumber '8171404240' to place a flex pay order order 1001156238 and change the cc card expiration date on the existing cc for future flex payments
+ TIME STAMP: 11/19/2014 08:39:54
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_ManageFlexPayChangeCC -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ManageFlexPayChangeCC passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:39:55Z" finished-at="2014-11-19T20:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ManageFlexPayChangeCC -->
+    </test> <!-- calling ManageFlexPayChangeCC -->
+    <test name="calling SpreadTheWord" duration-ms="448890" started-at="2014-11-20T01:39:55Z" finished-at="2014-11-20T01:47:24Z">
+      <class name="test.SpreadTheWord">
+        <test-method status="FAIL" signature="do_SpreadTheWord(java.util.Hashtable)[pri:0, instance:[SpreadTheWord passed=0 failed=0 skipped=0]]" name="do_SpreadTheWord" duration-ms="448797" started-at="2014-11-19T20:39:55Z" data-provider="getData" finished-at="2014-11-19T20:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DataRunmode=Y, TwitterConnectUrl=http://qa4.hsn.com/?ab_cd=1, PinterestConnectUrl=http://qa4.hsn.com/?ab_cd=1, GooglePlusConnectUrl=http://qa4.hsn.com/?ab_cd=1, Result=false Timestamp: 2014-11-19T09:23:03-05:00, PinterestConnectUrlResponseCode=404, InstagramConnectUrl=http://qa4.hsn.com/?ab_cd=1, DataRow=1, GooglePlusConnectUrlResponseCode=404, FacebookConnectUrlResponseCode=404, YoutubeConnectUrl=http://qa4.hsn.com/?ab_cd=1, TwitterConnectUrlResponseCode=404, Report=SpreadTheWord_Report, InstagramConnectUrlResponseCode=404, FacebookConnectUrl=http://qa4.hsn.com/?ab_cd=1, YoutubeConnectUrlResponseCode=404, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case SpreadTheWord has failed due to one of its steps not returning pass status expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case SpreadTheWord has failed due to one of its steps not returning pass status expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:152)
+	at test.SpreadTheWord.do_SpreadTheWord(SpreadTheWord.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_SpreadTheWord -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[SpreadTheWord passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:47:24Z" finished-at="2014-11-19T20:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SpreadTheWord -->
+    </test> <!-- calling SpreadTheWord -->
+    <test name="calling Emailsignup" duration-ms="57353" started-at="2014-11-20T01:47:24Z" finished-at="2014-11-20T01:48:21Z">
+      <class name="test.Emailsignup">
+        <test-method status="PASS" signature="do_Emailsignup(java.util.Hashtable)[pri:0, instance:[Emailsignup passed=0 failed=0 skipped=0]]" name="do_Emailsignup" duration-ms="57274" started-at="2014-11-19T20:47:24Z" data-provider="getData" finished-at="2014-11-19T20:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Report=Emailsignup_Report, DataRow=1, DataRunmode=Y, Email=ovc141119092336@qa1.com, Result=true Timestamp: 2014-11-19T09:24:08-05:00, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : Emailsignup - Used Browser: Mozilla ovc141119084749@qa1.com signed up for promotional emails TIME STAMP: 11/19/2014 08:48:21
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_Emailsignup -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[Emailsignup passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:48:21Z" finished-at="2014-11-19T20:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.Emailsignup -->
+    </test> <!-- calling Emailsignup -->
+    <test name="calling ExchangeRegularItem" duration-ms="147" started-at="2014-11-20T01:48:21Z" finished-at="2014-11-20T01:48:21Z">
+      <class name="test.ExchangeRegularItem">
+        <test-method status="SKIP" signature="do_ExchangeRegularItem(java.util.Hashtable)[pri:0, instance:[ExchangeRegularItem passed=0 failed=0 skipped=0]]" name="do_ExchangeRegularItem" duration-ms="69" started-at="2014-11-19T20:48:21Z" data-provider="getData" finished-at="2014-11-19T20:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=Mozilla, ReturnMsg=Your exchange order will be shipped when the original order has been recieved by HSN., PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, Password=password123, DataRow=1, OrderRowId='2-7CNVJ8E', Result=false Timestamp: 2014-08-18T04:02:10-04:00, Quantity=1, Report=ExchangeRegularItem_Report, PID=#key_PIDWithAllShippingOptions, ExchangeId=1001143006, DataRunmode=Y, OrderId=1001143005, SQL3=updatePaymentStatus, SQL2=updateOrderDelivery, CCNum=4019768753211237, OrderId1=1001143005, SQL1=getOrderRowId}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping test case: ExchangeRegularItemsince the Runmode for test case is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping test case: ExchangeRegularItemsince the Runmode for test case is N
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:75)
+	at test.ExchangeRegularItem.do_ExchangeRegularItem(ExchangeRegularItem.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_ExchangeRegularItem -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ExchangeRegularItem passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="1" started-at="2014-11-19T20:48:21Z" finished-at="2014-11-19T20:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ExchangeRegularItem -->
+    </test> <!-- calling ExchangeRegularItem -->
+    <test name="calling ExchangeVariantItem" duration-ms="149" started-at="2014-11-20T01:48:21Z" finished-at="2014-11-20T01:48:21Z">
+      <class name="test.ExchangeVariantItem">
+        <test-method status="SKIP" signature="do_ExchangeVariantItem(java.util.Hashtable)[pri:0, instance:[ExchangeVariantItem passed=0 failed=0 skipped=0]]" name="do_ExchangeVariantItem" duration-ms="68" started-at="2014-11-19T20:48:21Z" data-provider="getData" finished-at="2014-11-19T20:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=Mozilla, ReturnMsg=Your exchange order will be shipped immediately. Please return the original item and ensure that it is received within 15 days., PrimaryPhoneNumber=#key_CommonAccountPhoneNumber3, Password=password123, DataRow=1, OrderRowId='2-7CNUM1D', Result=false Timestamp: 2014-08-18T04:28:25-04:00, Quantity=1, Report=ExchangeVariantItem_Report, PID=#key_PIDExchangeVariantItem, ExchangeId=1001143009, DataRunmode=Y, OrderId=1001143008, SQL3=updatePaymentStatus, SQL2=updateOrderDelivery, CCNum=4019768753211237, OrderId1=1001143008, SQL1=getOrderRowId}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping test case: ExchangeVariantItemsince the Runmode for test case is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping test case: ExchangeVariantItemsince the Runmode for test case is N
+	at com.hsn.util.KeywordExecutor.ExecuteKeywords(KeywordExecutor.java:75)
+	at test.ExchangeVariantItem.do_ExchangeVariantItem(ExchangeVariantItem.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_ExchangeVariantItem -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[ExchangeVariantItem passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:48:21Z" finished-at="2014-11-19T20:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ExchangeVariantItem -->
+    </test> <!-- calling ExchangeVariantItem -->
+    <test name="calling MobileCheckoutWithCreateAccount" duration-ms="253854" started-at="2014-11-20T01:48:21Z" finished-at="2014-11-20T01:52:35Z">
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <test-method status="PASS" signature="do_MobileCheckoutWithCreateAccount(java.util.Hashtable)[pri:0, instance:[MobileCheckoutWithCreateAccount passed=0 failed=0 skipped=0]]" name="do_MobileCheckoutWithCreateAccount" duration-ms="253781" started-at="2014-11-19T20:48:22Z" data-provider="getData" finished-at="2014-11-19T20:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, UserAgent=#key_IPhone4UserAgent, CCNum=5780977044241556, Result=false Timestamp: 2014-11-19T09:29:03-05:00, DataRow=1, Email=ovc141119092550@qa1.com, CCType=HSN, Report=MobileCheckoutwithCreateAccount_Report, PrimaryPhoneNumber=8171439773, OrderId=1001130504, Browser=Mozilla, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : MobileCheckoutWithCreateAccount - Used Browser : Mozilla to create customer account ovc141119085003@qa1.com and placed order 1001130504 of sucessfully
+ TIME STAMP: 11/19/2014 08:52:35
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_MobileCheckoutWithCreateAccount -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[MobileCheckoutWithCreateAccount passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:52:35Z" finished-at="2014-11-19T20:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+    </test> <!-- calling MobileCheckoutWithCreateAccount -->
+    <test name="calling MobileExistingUserAddCC" duration-ms="139356" started-at="2014-11-20T01:52:35Z" finished-at="2014-11-20T01:54:55Z">
+      <class name="test.MobileExistingUserAddCC">
+        <test-method status="PASS" signature="do_MobileExistingUserAddCC(java.util.Hashtable)[pri:0, instance:[MobileExistingUserAddCC passed=0 failed=0 skipped=0]]" name="do_MobileExistingUserAddCC" duration-ms="139288" started-at="2014-11-19T20:52:35Z" data-provider="getData" finished-at="2014-11-19T20:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=Mozilla, PrimaryPhoneNumber=8171067353, UserAgent=#key_IPhone4UserAgent, Password=password123, DataRow=1, CCType=Visa CV, Result=true Timestamp: 2014-11-19T09:31:23-05:00, LatestCCInfo=Visa: ****3743
+Exp. Date: 03/2017, Quantity=1, CurrentCCardLast4='3743', CustID='16ba0765eac1407fb0392d7ebd96d6c2', Report=MobileExistingUserAddCC_Report, DataRunmode=Y, OrderId=1001130504, Email=#key_CommonAccountEmail2, SQL2=getCurrentCCardLast4, CCNum=4929856842113743, SQL1=getCustID}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : MobileExistingUserAddCC - Used Browser : Mozilla to update CC as 4929680161823306 for  customer account 'ovc141119021017@qa1.com' and captured last CC as Visa: ****3306
+Exp. Date: 03/2017 TIME STAMP: 11/19/2014 08:54:55
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_MobileExistingUserAddCC -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[MobileExistingUserAddCC passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:54:55Z" finished-at="2014-11-19T20:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.MobileExistingUserAddCC -->
+    </test> <!-- calling MobileExistingUserAddCC -->
+    <test name="calling MobileExistingUserRemoveCC" duration-ms="115973" started-at="2014-11-20T01:54:55Z" finished-at="2014-11-20T01:56:51Z">
+      <class name="test.MobileExistingUserRemoveCC">
+        <test-method status="PASS" signature="do_MobileExistingUserRemoveCC(java.util.Hashtable)[pri:0, instance:[MobileExistingUserRemoveCC passed=0 failed=0 skipped=0]]" name="do_MobileExistingUserRemoveCC" duration-ms="115866" started-at="2014-11-19T20:54:55Z" data-provider="getData" finished-at="2014-11-19T20:56:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Quantity=1, DataRunmode=Y, UserAgent=#key_IPhone4UserAgent, CCNum=4929702051071042, Result=true Timestamp: 2014-11-19T09:33:18-05:00, DataRow=1, Email=#key_CommonAccountEmail2, CurrentCard=American Express: ****2351
+Exp. Date: 03/2016, Password=password123, CCType=Visa CV, Report=MobileExistingUserRemoveCC_Report, LatestCCInfo=Visa: ****5455
+Exp. Date: 03/2017, PrimaryPhoneNumber=8171067353, OrderId=1001130504, Browser=Mozilla, OldCard=Visa: ****3743
+Exp. Date: 03/2017}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : MobileExistingUserRemoveCC - Used Browser : Mozilla to remove OLD Credit card Visa: ****3306
+Exp. Date: 03/2017   for  customer account 'ovc141119021017@qa1.com' . New Card info is Visa: ****0354
+Exp. Date: 01/2018 TIME STAMP: 11/19/2014 08:56:50
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_MobileExistingUserRemoveCC -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[MobileExistingUserRemoveCC passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:56:51Z" finished-at="2014-11-19T20:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+    </test> <!-- calling MobileExistingUserRemoveCC -->
+    <test name="calling MobileCheckoutAsExistingUser" duration-ms="142087" started-at="2014-11-20T01:56:51Z" finished-at="2014-11-20T01:59:13Z">
+      <class name="test.MobileCheckoutAsExistingUser">
+        <test-method status="PASS" signature="do_MobileCheckoutAsExistingUser(java.util.Hashtable)[pri:0, instance:[MobileCheckoutAsExistingUser passed=0 failed=0 skipped=0]]" name="do_MobileCheckoutAsExistingUser" duration-ms="142000" started-at="2014-11-19T20:56:51Z" data-provider="getData" finished-at="2014-11-19T20:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, UserAgent=#key_IPhone4UserAgent, Result=false Timestamp: 2014-11-19T09:37:17-05:00, DataRow=1, Email=#key_CommonAccountEmail4, Password=password123, Report=MobileCheckoutAsExistingUser_Report, OrderId=1001154654, Browser=Chrome, NumberOfFlexPayments=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ TestCase : MobileCheckoutAsExistingUser - Used Browser : Chrome and Useragent =  'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5' for customer account 'ovc141119022049@qa1.com' ,  placed and cancelled order 1001156243 sucessfully.
+ TIME STAMP: 11/19/2014 08:59:13
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- do_MobileCheckoutAsExistingUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:[MobileCheckoutAsExistingUser passed=0 failed=0 skipped=0]]" name="close" is-config="true" duration-ms="0" started-at="2014-11-19T20:59:13Z" finished-at="2014-11-19T20:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+    </test> <!-- calling MobileCheckoutAsExistingUser -->
+  </suite> <!-- Daily Smoke Test Suite -->
+</testng-results>

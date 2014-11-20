@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>TestNG:  calling AbandonFlowExistingUser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>calling AbandonFlowExistingUser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 19 14:27:31 EST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>341 seconds (341359 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.AbandonFlowExistingUser.do_AbandonFlowExistingUser()'><b>do_AbandonFlowExistingUser</b><br>Test class: test.AbandonFlowExistingUser<br>Parameters: {PID=#key_PIDNoVariant, Quantity=1, DataRunmode=Y, PID2=#key_PIDflexItem, Result=true Timestamp: 2014-11-18T23:08:08-05:00, DataRow=1, Email=#key_CommonAccountPhoneNumber1, ExistingBagQuantity=1, BagQuantityAfterExpressBuy=1, Password=password123, Report=AbandonFlowExistingUser_Report, OrderId=195130343, Browser=Mozilla, NumberOfFlexPayments=1}<br/>
+<a href="#Output-793317427" onClick='toggleBox("Output-793317427", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793317427" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793317427">
+
+ TestCase : AbandonFlowExistingUser - Used Browser : Mozilla Verified that Abandon Cart still reatins items to Bag And that Express Checkout does not  add old extsing items to checkout bag.  ExistingBagQuantity =  1 and BagQuantityAfterExpressBuy  =  1 TIME STAMP: 11/19/2014 02:33:12
+<br/>
+</div>
+</td>
+<td></td>
+<td>341</td>
+<td>[AbandonFlowExistingUser passed=0 failed=0 skipped=0]</td></tr>
+</table><p>
+</body>
+</html>

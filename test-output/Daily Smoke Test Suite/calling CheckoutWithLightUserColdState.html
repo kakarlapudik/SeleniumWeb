@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>TestNG:  calling CheckoutWithLightUserColdState</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>calling CheckoutWithLightUserColdState</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 19 15:37:30 EST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>312 seconds (312131 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.CheckoutWithLightUserColdState.do_CheckoutWithLightUserColdState()'><b>do_CheckoutWithLightUserColdState</b><br>Test class: test.CheckoutWithLightUserColdState<br>Parameters: {OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130363, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber1, DataRow=1, GamificationAccountCreatedID='a2fc5a501def46f1bbc540dee8831e95', GamificationSiteVisitedID='1d6bca39a8f94dee964cc4641d085b2d', CCType=HSN, Result=true Timestamp: 2014-11-19T06:33:07-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='b3846885cab54a70a4aa38a7f3f15ef4', OrderType=ASYNC, Report=CheckoutWithLightUserColdState_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130363, Email=#key_CommonAccountLightUser, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780972775165843, SQL1=getCustID}<br/>
+<a href="#Output-1952697525" onClick='toggleBox("Output-1952697525", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1952697525" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1952697525">
+
+ TestCase : CheckoutWithLightUserColdState - Used Browser : Mozilla to login with Light user customer account 'ovc141119033558@qa1.com' in cold state and placed order 1001156138 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '7178a619de5644dab72228af4ae8bb86' and GamificationAccountCreatedID = '6915e09b16924b38b65184809b1fc4d0' TIME STAMP: 11/19/2014 03:42:42
+<br/>
+</div>
+</td>
+<td></td>
+<td>312</td>
+<td>[CheckoutWithLightUserColdState passed=0 failed=0 skipped=0]</td></tr>
+</table><p>
+</body>
+</html>

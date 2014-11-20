@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Smoking test suite]">
+  <test name="calling test.CheckoutwithCreateAccount(failed)">
+    <classes>
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+          <include name="do_CheckoutwithCreateAccount" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CancelOrder_ExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrder_ExistingUser -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+    </classes>
+  </test> <!-- calling test.CheckoutwithCreateAccount(failed) -->
+</suite> <!-- Failed suite [My Smoking test suite] -->

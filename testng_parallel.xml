@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Daily Smoke Test Suite" verbose = "3" parallel="tests" >
+<test name="calling SuggestiveSearch">
+    <classes>
+        <class name="test.SuggestiveSearch"/>
+    </classes>
+</test>
+</suite>

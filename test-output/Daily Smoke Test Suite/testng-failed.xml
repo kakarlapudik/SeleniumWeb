@@ -1,0 +1,3744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Daily Smoke Test Suite]">
+  <test name="calling BreadBoxAndGridFilters(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+          <include name="do_BreadBoxAndGridFilters" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling BreadBoxAndGridFilters(failed) -->
+  <test name="calling BagPreviewAndFunctionality(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="do_BagPreviewAndFunctionality" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling BagPreviewAndFunctionality(failed) -->
+  <test name="calling BagPageEditVariant(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+          <include name="do_BagPageEditVariant" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling BagPageEditVariant(failed) -->
+  <test name="calling CheckoutWithDonation(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="do_CheckoutWithDonation" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling CheckoutWithDonation(failed) -->
+  <test name="calling CreateArcadeUser(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="do_CreateArcadeUser" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling CreateArcadeUser(failed) -->
+  <test name="calling CheckoutWithLightUserHotState(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="do_CheckoutWithLightUserColdState" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling CheckoutWithLightUserHotState(failed) -->
+  <test name="calling signinCheckoutExistingUserFlexPay(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+          <include name="do_signinCheckoutExistingUserFlexPay" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling signinCheckoutExistingUserFlexPay(failed) -->
+  <test name="calling CheckTaxAndSavingsOnBagPage(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="do_CheckTaxAndSavingsOnBagPage" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling CheckTaxAndSavingsOnBagPage(failed) -->
+  <test name="calling SpreadTheWord(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+          <include name="do_SpreadTheWord" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling SpreadTheWord(failed) -->
+  <test name="calling ExchangeRegularItem(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="do_ExchangeRegularItem" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling ExchangeRegularItem(failed) -->
+  <test name="calling ExchangeVariantItem(failed)">
+    <classes>
+      <class name="test.ConvertGuestToHSNAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ConvertGuestToHSNAccount -->
+      <class name="test.AccountUpdate_PaymentMethod">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_PaymentMethod -->
+      <class name="test.AccountUpdate_changeEmail">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changeEmail -->
+      <class name="test.ManageAutoshipChangeShipDate">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeShipDate -->
+      <class name="test.SpreadTheWord">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SpreadTheWord -->
+      <class name="test.CheckMultiItemsWithCoupon">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckMultiItemsWithCoupon -->
+      <class name="test.ExpressBuyExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingUser -->
+      <class name="test.ManageAutoshipEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipEditShipping -->
+      <class name="test.MobileExistingUserAddCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserAddCC -->
+      <class name="test.SocialSignInTwitter">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInTwitter -->
+      <class name="test.PromoType_ExtraFlex">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_ExtraFlex -->
+      <class name="test.signinCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUser -->
+      <class name="test.SocialSignInGoogle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInGoogle -->
+      <class name="test.SocialSignInFacebook">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInFacebook -->
+      <class name="test.OrderReveiwEditShippingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditShippingAddress -->
+      <class name="test.AccountUpdate_AddressInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_AddressInformation -->
+      <class name="test.CheckHSNOnAir">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckHSNOnAir -->
+      <class name="test.CheckoutWithLightUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserColdState -->
+      <class name="test.OrderReveiwEditPhoneNumberLTL">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPhoneNumberLTL -->
+      <class name="test.CheckPaypalExpress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckPaypalExpress -->
+      <class name="test.CheckoutWithLightUserHotState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithLightUserHotState -->
+      <class name="test.SearchByKeyword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SearchByKeyword -->
+      <class name="test.SocialSignInYahoo">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SocialSignInYahoo -->
+      <class name="test.signinApplyKashCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyKashCheckoutExistingUser -->
+      <class name="test.ManageAutoshipChangeFreq">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipChangeFreq -->
+      <class name="test.AccountUpdate_changePassword">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_changePassword -->
+      <class name="test.CheckoutWithPromotion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithPromotion -->
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+      <class name="test.AbandonFlowExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AbandonFlowExistingUser -->
+      <class name="test.CheckoutWithDonation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutWithDonation -->
+      <class name="test.MobileCheckoutAsExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutAsExistingUser -->
+      <class name="test.MobileExistingUserRemoveCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileExistingUserRemoveCC -->
+      <class name="test.BrowseDepartmentFlyouts">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BrowseDepartmentFlyouts -->
+      <class name="test.OrderReveiwForFlexPayItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwForFlexPayItem -->
+      <class name="test.signinApplyGiftCardCheckoutExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinApplyGiftCardCheckoutExistingUser -->
+      <class name="test.AccountUpdatePaymentMethodPaypal">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdatePaymentMethodPaypal -->
+      <class name="test.BagPreviewAndFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPreviewAndFunctionality -->
+      <class name="test.ManageFlexPayAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayAddNewCC -->
+      <class name="test.BreadBoxAndGridFilters">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BreadBoxAndGridFilters -->
+      <class name="test.CheckTaxAndSavingsOnBagPage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckTaxAndSavingsOnBagPage -->
+      <class name="test.signinCheckoutExistingUserAutoShip">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserAutoShip -->
+      <class name="test.ExchangeVariantItem">
+        <methods>
+          <include name="do_ExchangeVariantItem" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeVariantItem -->
+      <class name="test.ManageAutoshipAddNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageAutoshipAddNewCC -->
+      <class name="test.BagPageEditVariant">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditVariant -->
+      <class name="test.BagPageEditShipping">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.BagPageEditShipping -->
+      <class name="test.signinCheckoutExistingUserFlexPay">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserFlexPay -->
+      <class name="test.OrderReveiwEditPaymentmethodNewCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewCC -->
+      <class name="test.CreateArcadeUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateArcadeUser -->
+      <class name="test.OrderReveiwEditBillingAddress">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditBillingAddress -->
+      <class name="test.AccountUpdate_BillingInformation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AccountUpdate_BillingInformation -->
+      <class name="test.ReviewProductForexistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ReviewProductForexistingUser -->
+      <class name="test.ExchangeRegularItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExchangeRegularItem -->
+      <class name="test.AddMeasurementsFunctionality">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.AddMeasurementsFunctionality -->
+      <class name="test.CreateLightUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CreateLightUser -->
+      <class name="test.CheckoutAsGuest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CheckoutAsGuest -->
+      <class name="test.ManageFlexPayChangeCC">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ManageFlexPayChangeCC -->
+      <class name="test.OrderReveiwEditPaymentmethodNewDebitCard">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.OrderReveiwEditPaymentmethodNewDebitCard -->
+      <class name="test.MobileCheckoutWithCreateAccount">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.MobileCheckoutWithCreateAccount -->
+      <class name="test.SuggestiveSearch">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.SuggestiveSearch -->
+      <class name="test.Emailsignup">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.Emailsignup -->
+      <class name="test.ExpressBuyExistingColdUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.ExpressBuyExistingColdUser -->
+      <class name="test.CancelOrderExistingUser">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.CancelOrderExistingUser -->
+      <class name="test.PromoType_VIP">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.PromoType_VIP -->
+      <class name="test.signinCheckoutExistingAddprotectionPlan">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingAddprotectionPlan -->
+      <class name="test.signinCheckoutExistingUserColdState">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingUserColdState -->
+      <class name="test.signinCheckoutExistingMatrixItem">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.signinCheckoutExistingMatrixItem -->
+      <class name="test.GiftOptions">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.GiftOptions -->
+    </classes>
+  </test> <!-- calling ExchangeVariantItem(failed) -->
+</suite> <!-- Failed suite [Daily Smoke Test Suite] -->

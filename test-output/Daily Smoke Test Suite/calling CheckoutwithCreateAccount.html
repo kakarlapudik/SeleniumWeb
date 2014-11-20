@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  calling CheckoutwithCreateAccount</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>calling CheckoutwithCreateAccount</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 19 14:01:54 EST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>1267 seconds (1267524 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.CheckoutwithCreateAccount.do_CheckoutwithCreateAccount()'><b>do_CheckoutwithCreateAccount</b><br>Test class: test.CheckoutwithCreateAccount<br>Parameters: {OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130443, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber1, DataRow=1, GamificationAccountCreatedID='', GamificationSiteVisitedID='585c352037e04722b821c0f17c8e5261', CCType=HSN, Result=true Timestamp: 2014-11-19T11:09:52-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='45a7a77851f041ebb56bb859c6c93f5a', OrderType=ASYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130443, Email=@key_CommonAccountEmail1, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780973125481476, SQL1=getCustID}<br/>
+<a href="#Output-1409368475" onClick='toggleBox("Output-1409368475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1409368475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1409368475">
+
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119020500@qa1.com' and placed order 1001156063 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '5e5b5c29e10545e795e3390e6d2e9b72' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:07:21
+<br/>
+</div>
+</td>
+<td></td>
+<td>326</td>
+<td>[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]</td></tr>
+<tr>
+<td title='test.CheckoutwithCreateAccount.do_CheckoutwithCreateAccount()'><b>do_CheckoutwithCreateAccount</b><br>Test class: test.CheckoutwithCreateAccount<br>Parameters: {OrderIdUrl=https://shopqa4.hsn.com/cmr/order_review.aspx, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber2, DataRow=2, GamificationAccountCreatedID='', GamificationSiteVisitedID='', CCType=HSN, Result=false Timestamp: 2014-11-19T11:18:39-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='35e1f096b0584f65895f504a28f19cc1', OrderType=SYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130431, Email=@key_CommonAccountEmail2, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780977327032565, SQL1=getCustID}<br/>
+<a href="#Output-707911119" onClick='toggleBox("Output-707911119", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-707911119" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-707911119">
+
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119021017@qa1.com' and placed order 1001156069 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '290593b4b4714f2585cef4e04920d389' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:12:31
+<br/>
+</div>
+</td>
+<td></td>
+<td>310</td>
+<td>[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]</td></tr>
+<tr>
+<td title='test.CheckoutwithCreateAccount.do_CheckoutwithCreateAccount()'><b>do_CheckoutwithCreateAccount</b><br>Test class: test.CheckoutwithCreateAccount<br>Parameters: {OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130435, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber3, DataRow=3, GamificationAccountCreatedID='', GamificationSiteVisitedID='bc8776468c2740378d9c837d9af50c4d', CCType=HSN, Result=true Timestamp: 2014-11-19T10:55:05-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='a6e069b1c8bc4745bfeb5ed2c56b24a3', OrderType=ASYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130435, Email=@key_CommonAccountEmail3, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780971120552325, SQL1=getCustID}<br/>
+<a href="#Output-351906256" onClick='toggleBox("Output-351906256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-351906256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-351906256">
+
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119021535@qa1.com' and placed order 1001156071 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '9034faceb08d4ce39a4a0a835f623357' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:17:53
+<br/>
+</div>
+</td>
+<td></td>
+<td>321</td>
+<td>[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]</td></tr>
+<tr>
+<td title='test.CheckoutwithCreateAccount.do_CheckoutwithCreateAccount()'><b>do_CheckoutwithCreateAccount</b><br>Test class: test.CheckoutwithCreateAccount<br>Parameters: {OrderIdUrl=https://qa4.hsn.com/cmr/order_confirm/default.aspx?_hdod=195130439, Browser=Mozilla, PrimaryPhoneNumber=@key_CommonAccountPhoneNumber4, DataRow=4, GamificationAccountCreatedID='', GamificationSiteVisitedID='4f12d904d36249fe801508845920c0b8', CCType=HSN, Result=true Timestamp: 2014-11-19T11:01:17-05:00, Quantity=1, NumberOfFlexPayments=1, CustID='95f51d235bbb4fea8d396f49ed08a861', OrderType=ASYNC, Report=CheckoutwithCreateAccount_Report, PID=#key_PIDNoVariant, DataRunmode=Y, OrderId=195130439, Email=@key_CommonAccountEmail4, SQL3=getGamificationAccountCreatedID, SQL2=getGamificationSiteVisitedID, CCNum=5780970886144384, SQL1=getCustID}<br/>
+<a href="#Output-305800905" onClick='toggleBox("Output-305800905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305800905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305800905">
+
+ TestCase : CheckoutwithCreateAccount - Used Browser : Mozilla to create customer account 'ovc141119022049@qa1.com' and placed order 1001156074 of Order type  =  SYNC sucessfully
+GamificationSiteVisitedID = '05cb333435c245e6a1c8a82b29681773' and GamificationAccountCreatedID = '' TIME STAMP: 11/19/2014 02:23:01
+<br/>
+</div>
+</td>
+<td></td>
+<td>308</td>
+<td>[CheckoutwithCreateAccount passed=0 failed=0 skipped=0]</td></tr>
+</table><p>
+</body>
+</html>

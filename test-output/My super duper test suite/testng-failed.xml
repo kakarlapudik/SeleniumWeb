@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My super duper test suite]">
+  <test name="calling test one(failed)">
+    <classes>
+      <class name="test.CheckoutwithCreateAccount">
+        <methods>
+          <include name="close"/>
+          <include name="do_CheckoutwithCreateAccount" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- test.CheckoutwithCreateAccount -->
+    </classes>
+  </test> <!-- calling test one(failed) -->
+</suite> <!-- Failed suite [My super duper test suite] -->
